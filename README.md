@@ -1,20 +1,50 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Introduction
+
+The swap-ease-clustering-api contains the methods to cluster NFTRank data. There are also methods to get and add to mongoDB databases
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+
+## Install Dependencies
+
+Make sure your python version is < 3.10. Preferably 3.8.
+
+At the project root, we run this command below. It will create our python virtual environment
+
+```
+python3 -m venv venv
+```
+
+Next we need to activate the virtual env using
+
+```
+. venv/bin/activate
+```
+
+Using the requirements.txt file, we can install all necessary dependencies on the virtual env using
+
+```
+pip install -r requirements.txt
+
+// If top fails, upgrade pip and re-run
+pip install --upgrade pip
+```
+
+All dependencies should now be in the virtual environment. If we want to update the dependencies list in requirements.txt we can use the line below. We need to have the necessary updates installed before freezing though.
+
+```
+pip freeze > requirements.txt
+```
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+
+TODO: Describe and show how to build your code and run the tests.
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+
+TODO: Explain how other users and developers can contribute to make your code better.
 
 If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
+
 - [ASP.NET Core](https://github.com/aspnet/Home)
 - [Visual Studio Code](https://github.com/Microsoft/vscode)
 - [Chakra Core](https://github.com/Microsoft/ChakraCore)
