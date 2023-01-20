@@ -1,0 +1,3228 @@
+{
+  "next": "LWV2ZW50X3RpbWVzdGFtcD0yMDIzLTAxLTA5KzA2JTNBNDglM0EyMyYtZXZlbnRfdHlwZT1zdWNjZXNzZnVsJi1waz05MTgwNDEyMzUy",
+  "previous": "cj0xJi1ldmVudF90aW1lc3RhbXA9MjAyMy0wMS0xMCswNCUzQTQ2JTNBMTEmLWV2ZW50X3R5cGU9c3VjY2Vzc2Z1bCYtcGs9OTE5OTcyMzUwMg==",
+  "asset_events": [
+    {
+      "asset": {
+        "id": 84733325,
+        "token_id": "6340",
+        "num_sales": 2,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/83fe897a06d540a2543b7af220fde0f0.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/83fe897a06d540a2543b7af220fde0f0.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/83fe897a06d540a2543b7af220fde0f0.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmTTrcnGvLEX3cQNLzcc3yEZ5No82ryvZYQ48aMroRp1zg/lightgreen_camogreen_camogreen_lightgreen_orange_blurple_C_1C_3C_2C_4C_1C_1C_0_0_0_0_0_0_0743.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #6340",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/6340",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/6340",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-10T04:46:11",
+      "auction_type": null,
+      "total_price": "441900000000000000",
+      "payment_token": {
+        "symbol": "WETH",
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "image_url": "https://openseauserdata.com/files/accae6b6fb3888cbff27a013729c22dc.svg",
+        "name": "Wrapped Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x1bf448618b890fae8a285d1f68792af57d7e3f3031701e0707169d73a128062f",
+        "block_number": "16374105",
+        "from_account": {
+          "user": {
+            "username": "PrinceJet"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png",
+          "address": "0x43cb008a1e6c42f5e02b8dcbf8da0e9987bd3759",
+          "config": ""
+        },
+        "id": 989860623,
+        "timestamp": "2023-01-10T04:46:11",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png",
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "config": ""
+        },
+        "transaction_hash": "0x4b5267781a93031232f3138fb937b70c0ab438a5427d670e551f1ba73d08e20b",
+        "transaction_index": "94"
+      },
+      "created_date": "2023-01-10T04:46:13.063099",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x00000000006c3852cbef3e08e8df289169ede581",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": 250,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9199723502,
+      "is_private": null,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "PrinceJet"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png",
+        "address": "0x43cb008a1e6c42f5e02b8dcbf8da0e9987bd3759",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": "AliceNft"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/30.png",
+        "address": "0xdc0fb6b96fd90aeba6d12d01b3071f77011b0166",
+        "config": ""
+      },
+      "listing_time": null
+    },
+    {
+      "asset": {
+        "id": 67783344,
+        "token_id": "2325",
+        "num_sales": 2,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/878c257da54deacbb9bb8cd7f324fa6f.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/878c257da54deacbb9bb8cd7f324fa6f.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/878c257da54deacbb9bb8cd7f324fa6f.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmazkShEyjjY7nghpPGZV6Zp4gbXCG6zBTMegJw257wM1X/darkbrown_darkbrown_white_white_white_blurple_D_1D_1D_3D_3D_1D_1D_0_0_0_0_0_0_0338.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #2325",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/2325",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/2325",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-10T04:45:47",
+      "auction_type": null,
+      "total_price": "520600000000000000",
+      "payment_token": {
+        "symbol": "WETH",
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "image_url": "https://openseauserdata.com/files/accae6b6fb3888cbff27a013729c22dc.svg",
+        "name": "Wrapped Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x80027f0f8748488f62f31ad9be52474a57746145cfb9f0a3d91041ebb262087a",
+        "block_number": "16374103",
+        "from_account": {
+          "user": {
+            "username": "PrinceJet"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png",
+          "address": "0x43cb008a1e6c42f5e02b8dcbf8da0e9987bd3759",
+          "config": ""
+        },
+        "id": 989858234,
+        "timestamp": "2023-01-10T04:45:47",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png",
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "config": ""
+        },
+        "transaction_hash": "0x545c69437b68531c1b669a26cd6719f2d5c86b5918204f2521d23392f8442405",
+        "transaction_index": "95"
+      },
+      "created_date": "2023-01-10T04:45:49.446157",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x00000000006c3852cbef3e08e8df289169ede581",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": 250,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9199717642,
+      "is_private": null,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "PrinceJet"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png",
+        "address": "0x43cb008a1e6c42f5e02b8dcbf8da0e9987bd3759",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": "cheap_X2Y2_NFTbutler"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/3.png",
+        "address": "0x46450a5f58e30521078541a31d3df497f203af22",
+        "config": ""
+      },
+      "listing_time": null
+    },
+    {
+      "asset": {
+        "id": 67762435,
+        "token_id": "6404",
+        "num_sales": 3,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/a672cbc4d9524202b38f958e6c95d97e.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/a672cbc4d9524202b38f958e6c95d97e.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/a672cbc4d9524202b38f958e6c95d97e.png?w=500&auto=format",
+        "image_original_url": "ipfs://Qmb2t1QsbMho9AgkBN1Nns4VAZc3JGHwhaEyUzAvw2k1Qe/yellow_white_white_white_darkgrey_pastelblue_A_13A_5A_8A_5A_6A_3A_0_0_0_0_0_0_0172.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #6404",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/6404",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/6404",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-10T04:45:23",
+      "auction_type": null,
+      "total_price": "441900000000000000",
+      "payment_token": {
+        "symbol": "WETH",
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "image_url": "https://openseauserdata.com/files/accae6b6fb3888cbff27a013729c22dc.svg",
+        "name": "Wrapped Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0xd5c2c9a2ca31423bff08a349913491ff0537ca131ec5952d2420ab644a68b668",
+        "block_number": "16374101",
+        "from_account": {
+          "user": {
+            "username": "PrinceJet"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png",
+          "address": "0x43cb008a1e6c42f5e02b8dcbf8da0e9987bd3759",
+          "config": ""
+        },
+        "id": 989855484,
+        "timestamp": "2023-01-10T04:45:23",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png",
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "config": ""
+        },
+        "transaction_hash": "0x2f43803fd428b98d6358b1364ea4c83fe03d9c2de549ef339f8b90f7695ab1ed",
+        "transaction_index": "79"
+      },
+      "created_date": "2023-01-10T04:45:25.249980",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x00000000006c3852cbef3e08e8df289169ede581",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": 250,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9199711610,
+      "is_private": null,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "PrinceJet"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png",
+        "address": "0x43cb008a1e6c42f5e02b8dcbf8da0e9987bd3759",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": "AliceNft"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/30.png",
+        "address": "0xdc0fb6b96fd90aeba6d12d01b3071f77011b0166",
+        "config": ""
+      },
+      "listing_time": null
+    },
+    {
+      "asset": {
+        "id": 67763351,
+        "token_id": "5490",
+        "num_sales": 1,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/c5187aae0c439df41619958b86928eb4.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/c5187aae0c439df41619958b86928eb4.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/c5187aae0c439df41619958b86928eb4.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmPuWZwJBcrkZmZJnGWwPY9n145APSD7K2LAfGviXZdMqX/none_none_none_none_none_none_A_17A_1A_10A_2A_6A_1A_0_0_0_4_0_0_0135.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #5490",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/5490",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/5490",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-10T03:30:11",
+      "auction_type": null,
+      "total_price": "1000000000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x741bfea811b6716256916fdd6f864f17b608c0e5d93dae7f8c3e5d03472180be",
+        "block_number": "16373726",
+        "from_account": {
+          "user": {
+            "username": null
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/22.png",
+          "address": "0x750d0b6162a59a52a65c814ab51fe50a5288f8b7",
+          "config": ""
+        },
+        "id": 989351205,
+        "timestamp": "2023-01-10T03:30:11",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png",
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "config": ""
+        },
+        "transaction_hash": "0x810a858e647bf8fd864bcff434b708401f2a4126ac8ff4a225f49642ba483772",
+        "transaction_index": "312"
+      },
+      "created_date": "2023-01-10T03:30:13.990038",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x00000000006c3852cbef3e08e8df289169ede581",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": 250,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9198637432,
+      "is_private": false,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "Dontfoolmebro"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/22.png",
+        "address": "0x8b371f753584c276845f59179d9687c3ec4026a0",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/22.png",
+        "address": "0x750d0b6162a59a52a65c814ab51fe50a5288f8b7",
+        "config": ""
+      },
+      "listing_time": "2023-01-02T11:57:20"
+    },
+    {
+      "asset": {
+        "id": 67771389,
+        "token_id": "3983",
+        "num_sales": 4,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/c9e21263dc0ce872753c9f32eeabc213.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/c9e21263dc0ce872753c9f32eeabc213.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/c9e21263dc0ce872753c9f32eeabc213.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmPuWZwJBcrkZmZJnGWwPY9n145APSD7K2LAfGviXZdMqX/none_none_none_none_none_none_A_20A_3A_9A_2A_3A_1A_0_0_0_5_0_0_0192.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #3983",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/3983",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/3983",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-10T01:26:23",
+      "auction_type": null,
+      "total_price": "1150000000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x70ab4a8d4599072d6362a764d74068634ee256d6ac80ac114a966259306707f6",
+        "block_number": "16373108",
+        "from_account": {
+          "user": {
+            "username": "kelox"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/31.png",
+          "address": "0x8c0c78e6e81510b96fe34483c05ee203a1f0457b",
+          "config": ""
+        },
+        "id": 988541035,
+        "timestamp": "2023-01-10T01:26:23",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png",
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "config": ""
+        },
+        "transaction_hash": "0xbd3904bb61ae7cf86711e2c570b7d3c3d9d85e9f49be4eae996b7e2cd95ef4b8",
+        "transaction_index": "84"
+      },
+      "created_date": "2023-01-10T01:26:25.612771",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x00000000006c3852cbef3e08e8df289169ede581",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": 250,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9196739149,
+      "is_private": false,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "Ultra_instinct"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/12.png",
+        "address": "0x6ee73bf7c5b8b1e92f4500591cf39c1f99290674",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": "kelox"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/31.png",
+        "address": "0x8c0c78e6e81510b96fe34483c05ee203a1f0457b",
+        "config": ""
+      },
+      "listing_time": "2023-01-08T04:09:08"
+    },
+    {
+      "asset": {
+        "id": 67793104,
+        "token_id": "3633",
+        "num_sales": 1,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/7f10e236cd326d1743196e4d9d3e20f0.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/7f10e236cd326d1743196e4d9d3e20f0.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/7f10e236cd326d1743196e4d9d3e20f0.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmUBXCBi7vjTAAZDMqGHaHSkTxc6Qke87U4Gxq1hx6LYsL/darkbrown_darkbrown_darkbrown_darkbrown_white_red_A_8A_1A_8A_3A_1A_3A_2A_0_0_0_0_0_2533.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #3633",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/3633",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/3633",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-10T01:26:23",
+      "auction_type": null,
+      "total_price": "820000000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x70ab4a8d4599072d6362a764d74068634ee256d6ac80ac114a966259306707f6",
+        "block_number": "16373108",
+        "from_account": {
+          "user": {
+            "username": "kelox"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/31.png",
+          "address": "0x8c0c78e6e81510b96fe34483c05ee203a1f0457b",
+          "config": ""
+        },
+        "id": 988541035,
+        "timestamp": "2023-01-10T01:26:23",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png",
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "config": ""
+        },
+        "transaction_hash": "0xbd3904bb61ae7cf86711e2c570b7d3c3d9d85e9f49be4eae996b7e2cd95ef4b8",
+        "transaction_index": "84"
+      },
+      "created_date": "2023-01-10T01:26:25.515384",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x00000000006c3852cbef3e08e8df289169ede581",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": 250,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9196739129,
+      "is_private": false,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "rd4n3el"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/1.png",
+        "address": "0x429576ddc2cadaf48cdf5759da96486b676ea876",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": "kelox"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/31.png",
+        "address": "0x8c0c78e6e81510b96fe34483c05ee203a1f0457b",
+        "config": ""
+      },
+      "listing_time": "2022-10-15T19:49:28"
+    },
+    {
+      "asset": {
+        "id": 67788020,
+        "token_id": "8783",
+        "num_sales": 3,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/225962b888be7017d958c2694f0356c1.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/225962b888be7017d958c2694f0356c1.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/225962b888be7017d958c2694f0356c1.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmUBXCBi7vjTAAZDMqGHaHSkTxc6Qke87U4Gxq1hx6LYsL/darkbrown_darkbrown_darkbrown_darkbrown_pastelblue_lightgreen_A_1A_4A_2A_1A_2A_1A_1A_0_0_0_0_0_1274.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #8783",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/8783",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/8783",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-10T01:26:23",
+      "auction_type": null,
+      "total_price": "880000000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x70ab4a8d4599072d6362a764d74068634ee256d6ac80ac114a966259306707f6",
+        "block_number": "16373108",
+        "from_account": {
+          "user": {
+            "username": "kelox"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/31.png",
+          "address": "0x8c0c78e6e81510b96fe34483c05ee203a1f0457b",
+          "config": ""
+        },
+        "id": 988541035,
+        "timestamp": "2023-01-10T01:26:23",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png",
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "config": ""
+        },
+        "transaction_hash": "0xbd3904bb61ae7cf86711e2c570b7d3c3d9d85e9f49be4eae996b7e2cd95ef4b8",
+        "transaction_index": "84"
+      },
+      "created_date": "2023-01-10T01:26:25.420542",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x00000000006c3852cbef3e08e8df289169ede581",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": 250,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9196739112,
+      "is_private": false,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "_NARDLEON"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/19.png",
+        "address": "0x59122b7dd9189dcbf002bb9393cbbc9d362bef76",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": "kelox"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/31.png",
+        "address": "0x8c0c78e6e81510b96fe34483c05ee203a1f0457b",
+        "config": ""
+      },
+      "listing_time": "2023-01-04T20:45:31"
+    },
+    {
+      "asset": {
+        "id": 68008875,
+        "token_id": "40",
+        "num_sales": 2,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/52a024119ae8ca05178517899580cab6.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/52a024119ae8ca05178517899580cab6.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/52a024119ae8ca05178517899580cab6.png?w=500&auto=format",
+        "image_original_url": "ipfs://Qmb2t1QsbMho9AgkBN1Nns4VAZc3JGHwhaEyUzAvw2k1Qe/yellow_yellow_white_white_darkgrey_bloodred_A_1A_5A_1A_6A_1A_4A_2A_0_0_0_0_0_1390.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #40",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/40",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/40",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-10T01:26:23",
+      "auction_type": null,
+      "total_price": "710000000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x70ab4a8d4599072d6362a764d74068634ee256d6ac80ac114a966259306707f6",
+        "block_number": "16373108",
+        "from_account": {
+          "user": {
+            "username": "kelox"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/31.png",
+          "address": "0x8c0c78e6e81510b96fe34483c05ee203a1f0457b",
+          "config": ""
+        },
+        "id": 988541035,
+        "timestamp": "2023-01-10T01:26:23",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png",
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "config": ""
+        },
+        "transaction_hash": "0xbd3904bb61ae7cf86711e2c570b7d3c3d9d85e9f49be4eae996b7e2cd95ef4b8",
+        "transaction_index": "84"
+      },
+      "created_date": "2023-01-10T01:26:25.310048",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x00000000006c3852cbef3e08e8df289169ede581",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": 250,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9196739089,
+      "is_private": false,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "b2d8662"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/20.png",
+        "address": "0xb2d866297dbc7c7d8ad045c05afb48a95f28fb3c",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": "kelox"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/31.png",
+        "address": "0x8c0c78e6e81510b96fe34483c05ee203a1f0457b",
+        "config": ""
+      },
+      "listing_time": "2023-01-09T03:00:00"
+    },
+    {
+      "asset": {
+        "id": 67764681,
+        "token_id": "3654",
+        "num_sales": 2,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/431c0bb4bd035c7383eae9daa3dbcc36.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/431c0bb4bd035c7383eae9daa3dbcc36.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/431c0bb4bd035c7383eae9daa3dbcc36.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmTTrcnGvLEX3cQNLzcc3yEZ5No82ryvZYQ48aMroRp1zg/lightgreen_camogreen_camogreen_lightgreen_lightgreen_blurple_A_1A_1A_8A_4A_3A_2A_0_0_0_0_0_0_1723.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #3654",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/3654",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/3654",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-10T01:08:59",
+      "auction_type": null,
+      "total_price": "460000000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x79169f59b1b67d8bc65715d9b29b4f72dc309645f5de349c628c4c4a07e3c53f",
+        "block_number": "16373022",
+        "from_account": {
+          "user": {
+            "username": null
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/3.png",
+          "address": "0xd41206354252a56172ba971e6376eea39900b79d",
+          "config": ""
+        },
+        "id": 988437876,
+        "timestamp": "2023-01-10T01:08:59",
+        "to_account": {
+          "user": {
+            "username": "BlurSwap"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/24.png",
+          "address": "0x39da41747a83aee658334415666f3ef92dd0d541",
+          "config": ""
+        },
+        "transaction_hash": "0x9c93b4f27e9d568534c05064e44ab826e143fb90c7ed6de85c589d57afe3fc07",
+        "transaction_index": "81"
+      },
+      "created_date": "2023-01-10T01:09:04.733734",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": null,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9196481993,
+      "is_private": null,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/4.png",
+        "address": "0x7b5df0ae97b895067e4566fb2edf155118f925ae",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/3.png",
+        "address": "0xd41206354252a56172ba971e6376eea39900b79d",
+        "config": ""
+      },
+      "listing_time": null
+    },
+    {
+      "asset": {
+        "id": 67829376,
+        "token_id": "4377",
+        "num_sales": 4,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/9d543d78984ff34dce5553ff9bb7cfc1.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/9d543d78984ff34dce5553ff9bb7cfc1.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/9d543d78984ff34dce5553ff9bb7cfc1.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmTTrcnGvLEX3cQNLzcc3yEZ5No82ryvZYQ48aMroRp1zg/grey_softred_blurple_grey_orange_pastelblue_D_1D_2D_7D_1D_2D_1D_0_0_0_0_0_0_0146.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #4377",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/4377",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/4377",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-09T20:15:59",
+      "auction_type": null,
+      "total_price": "780000000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x52d3b9160e75cef1f7d37d4b5b75ed6b724fd700c367460845e2cd6d30e8241d",
+        "block_number": "16371570",
+        "from_account": {
+          "user": {
+            "username": "thuggin-nfts"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/28.png",
+          "address": "0x3bfaf2d55764a2b899949c147877211e10b4ebee",
+          "config": ""
+        },
+        "id": 986634411,
+        "timestamp": "2023-01-09T20:15:59",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png",
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "config": ""
+        },
+        "transaction_hash": "0x5aee3764b2a48c1f6dc3095197e2c21587fe79eb78eaf484d750c43dea8df403",
+        "transaction_index": "102"
+      },
+      "created_date": "2023-01-09T20:16:01.790232",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x00000000006c3852cbef3e08e8df289169ede581",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": 250,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9192140461,
+      "is_private": false,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/13.png",
+        "address": "0xa1f50ed6656f884df996b7a9a371dd7ef2892ff3",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": "thuggin-nfts"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/28.png",
+        "address": "0x3bfaf2d55764a2b899949c147877211e10b4ebee",
+        "config": ""
+      },
+      "listing_time": "2022-12-31T10:08:45"
+    },
+    {
+      "asset": {
+        "id": 67766740,
+        "token_id": "7959",
+        "num_sales": 4,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/2754dc3822bfce38557949b83271c26b.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/2754dc3822bfce38557949b83271c26b.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/2754dc3822bfce38557949b83271c26b.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmPoibhmrpzR7UKmQeT7SxYesQChjeXSp3xxSu2oszn9pm/black_camogreen_camogreen_camogreen_camogreen_aqualite_D_1D_3D_3D_2D_3D_4D_0_0_0_0_0_0_0203.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #7959",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/7959",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/7959",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-09T17:57:11",
+      "auction_type": null,
+      "total_price": "680000000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x2590a38e97c1a66caa1805998b781bad6639f81a44c2a3811855fa2eb7c2628d",
+        "block_number": "16370883",
+        "from_account": {
+          "user": {
+            "username": null
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png",
+          "address": "0x98250eb8d1d84e655313e24521f3b8d45433fb57",
+          "config": ""
+        },
+        "id": 985735184,
+        "timestamp": "2023-01-09T17:57:11",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png",
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "config": ""
+        },
+        "transaction_hash": "0xe84d92930a247671b4c85b0584fbcd0caa88d5b320f77e4cb768888283724d14",
+        "transaction_index": "252"
+      },
+      "created_date": "2023-01-09T17:57:14.427902",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x00000000006c3852cbef3e08e8df289169ede581",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": 250,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9190080395,
+      "is_private": false,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/30.png",
+        "address": "0xaa660d08f39f20b59d1a293a349cc271a038b9fb",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png",
+        "address": "0x98250eb8d1d84e655313e24521f3b8d45433fb57",
+        "config": ""
+      },
+      "listing_time": "2023-01-08T05:55:45"
+    },
+    {
+      "asset": {
+        "id": 67775385,
+        "token_id": "1200",
+        "num_sales": 4,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/ee6062a4fdcef40c545eb5dec5a9404a.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/ee6062a4fdcef40c545eb5dec5a9404a.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/ee6062a4fdcef40c545eb5dec5a9404a.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmWPaH88mUcog7A27FTWkgY3mJwrqwweQ2WS3icUbd6TvF/white_white_bluegrey_grey_bluegrey_red_B_1B_1B_2B_1B_1B_1B_0_0_0_0_0_0_0521.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #1200",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/1200",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/1200",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-09T17:11:47",
+      "auction_type": null,
+      "total_price": "529900000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x8b4349ceb0d4b7b6d5681f2ee6111d902d5519ee13d0a36141625c7c2237862c",
+        "block_number": "16370656",
+        "from_account": {
+          "user": {
+            "username": null
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/25.png",
+          "address": "0xcc288caa63b8ea8c551fd45368ea5da21c831cd6",
+          "config": ""
+        },
+        "id": 985449247,
+        "timestamp": "2023-01-09T17:11:47",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png",
+          "address": "0x000000000000ad05ccc4f10045630fb830b95127",
+          "config": ""
+        },
+        "transaction_hash": "0xcf3a8985decfe8229f91428d10e8d4c2ff34b1472345cfe541af5f7fd2169401",
+        "transaction_index": "96"
+      },
+      "created_date": "2023-01-09T17:11:49.736040",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": null,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9189414195,
+      "is_private": null,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "X947D5"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/5.png",
+        "address": "0x9d3f56186ce4ba86214ae9127e07491f2449d698",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/25.png",
+        "address": "0xcc288caa63b8ea8c551fd45368ea5da21c831cd6",
+        "config": ""
+      },
+      "listing_time": null
+    },
+    {
+      "asset": {
+        "id": 67763080,
+        "token_id": "1115",
+        "num_sales": 3,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/0577c1aa881133db30408bb3e6494a0b.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/0577c1aa881133db30408bb3e6494a0b.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/0577c1aa881133db30408bb3e6494a0b.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmPDA1iSjM3J1a8CG1CzXrRQj5tUjRAXHdJNKar6M1oEwy/white_white_camogreen_camogreen_white_bluegrey_A_6A_1A_2A_1A_2A_1A_0_0_0_0_0_0_0413.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #1115",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/1115",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/1115",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-09T17:11:47",
+      "auction_type": null,
+      "total_price": "535000000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x8b4349ceb0d4b7b6d5681f2ee6111d902d5519ee13d0a36141625c7c2237862c",
+        "block_number": "16370656",
+        "from_account": {
+          "user": {
+            "username": null
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/25.png",
+          "address": "0xcc288caa63b8ea8c551fd45368ea5da21c831cd6",
+          "config": ""
+        },
+        "id": 985449247,
+        "timestamp": "2023-01-09T17:11:47",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png",
+          "address": "0x000000000000ad05ccc4f10045630fb830b95127",
+          "config": ""
+        },
+        "transaction_hash": "0xcf3a8985decfe8229f91428d10e8d4c2ff34b1472345cfe541af5f7fd2169401",
+        "transaction_index": "96"
+      },
+      "created_date": "2023-01-09T17:11:49.735707",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": null,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9189414194,
+      "is_private": null,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png",
+        "address": "0xba1ba61ff159422bcb07f78017186624e94e6936",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/25.png",
+        "address": "0xcc288caa63b8ea8c551fd45368ea5da21c831cd6",
+        "config": ""
+      },
+      "listing_time": null
+    },
+    {
+      "asset": {
+        "id": 67767824,
+        "token_id": "3434",
+        "num_sales": 6,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/66af0800968b650144103fdbacb2abe3.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/66af0800968b650144103fdbacb2abe3.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/66af0800968b650144103fdbacb2abe3.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmazkShEyjjY7nghpPGZV6Zp4gbXCG6zBTMegJw257wM1X/grey_grey_bluegrey_grey_bluegrey_white_A_7A_1A_1A_3A_2A_3A_0_0_0_0_0_0_2142.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #3434",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/3434",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/3434",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-09T17:11:47",
+      "auction_type": null,
+      "total_price": "540900000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x8b4349ceb0d4b7b6d5681f2ee6111d902d5519ee13d0a36141625c7c2237862c",
+        "block_number": "16370656",
+        "from_account": {
+          "user": {
+            "username": null
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/25.png",
+          "address": "0xcc288caa63b8ea8c551fd45368ea5da21c831cd6",
+          "config": ""
+        },
+        "id": 985449247,
+        "timestamp": "2023-01-09T17:11:47",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png",
+          "address": "0x000000000000ad05ccc4f10045630fb830b95127",
+          "config": ""
+        },
+        "transaction_hash": "0xcf3a8985decfe8229f91428d10e8d4c2ff34b1472345cfe541af5f7fd2169401",
+        "transaction_index": "96"
+      },
+      "created_date": "2023-01-09T17:11:49.673883",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": null,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9189414170,
+      "is_private": null,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "RugNTug"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/30.png",
+        "address": "0xb2bb37b71349ad712b5a9341780dfdf18315728a",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/25.png",
+        "address": "0xcc288caa63b8ea8c551fd45368ea5da21c831cd6",
+        "config": ""
+      },
+      "listing_time": null
+    },
+    {
+      "asset": {
+        "id": 67770080,
+        "token_id": "2737",
+        "num_sales": 8,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/db707264d0d0b005bc33c881da0e9e68.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/db707264d0d0b005bc33c881da0e9e68.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/db707264d0d0b005bc33c881da0e9e68.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmWPaH88mUcog7A27FTWkgY3mJwrqwweQ2WS3icUbd6TvF/white_grey_camogreen_camogreen_white_bluegrey_B_1B_1B_1B_2B_3B_1B_0_0_0_0_0_0_0907.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #2737",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/2737",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/2737",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-09T17:11:47",
+      "auction_type": null,
+      "total_price": "542700000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x8b4349ceb0d4b7b6d5681f2ee6111d902d5519ee13d0a36141625c7c2237862c",
+        "block_number": "16370656",
+        "from_account": {
+          "user": {
+            "username": null
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/25.png",
+          "address": "0xcc288caa63b8ea8c551fd45368ea5da21c831cd6",
+          "config": ""
+        },
+        "id": 985449247,
+        "timestamp": "2023-01-09T17:11:47",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png",
+          "address": "0x000000000000ad05ccc4f10045630fb830b95127",
+          "config": ""
+        },
+        "transaction_hash": "0xcf3a8985decfe8229f91428d10e8d4c2ff34b1472345cfe541af5f7fd2169401",
+        "transaction_index": "96"
+      },
+      "created_date": "2023-01-09T17:11:49.668241",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": null,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9189414166,
+      "is_private": null,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "Kantor2"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/10.png",
+        "address": "0x47bd97c6495321fb7e6b98792cc728975cb482b7",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/25.png",
+        "address": "0xcc288caa63b8ea8c551fd45368ea5da21c831cd6",
+        "config": ""
+      },
+      "listing_time": null
+    },
+    {
+      "asset": {
+        "id": 67764380,
+        "token_id": "356",
+        "num_sales": 2,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/dfc21fc64685001482cbbcec3d461b9f.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/dfc21fc64685001482cbbcec3d461b9f.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/dfc21fc64685001482cbbcec3d461b9f.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmazkShEyjjY7nghpPGZV6Zp4gbXCG6zBTMegJw257wM1X/grey_red_grey_grey_blue_bloodred_B_3B_1B_1B_9B_2B_2B_0_0_1_0_0_0_0013.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #356",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/356",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/356",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-09T15:18:35",
+      "auction_type": null,
+      "total_price": "630000000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x9f4cd53d47d51ce9df64627865291a4f9758e66db2a82c4255c7011b0165d022",
+        "block_number": "16370091",
+        "from_account": {
+          "user": {
+            "username": "DonDeria"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/18.png",
+          "address": "0xf8a7f5a7286f71a4b582a0188a619177246aca8b",
+          "config": ""
+        },
+        "id": 984684337,
+        "timestamp": "2023-01-09T15:18:35",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png",
+          "address": "0x000000000000ad05ccc4f10045630fb830b95127",
+          "config": ""
+        },
+        "transaction_hash": "0x198a86750f1e8665c8e969816f89caa01ef670b33f52693003d58fed85d582d4",
+        "transaction_index": "107"
+      },
+      "created_date": "2023-01-09T15:18:37.127302",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": null,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9187757432,
+      "is_private": null,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "morindune"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/21.png",
+        "address": "0x2b27a40e78aae02f13ea730f2e49f28db97c01ad",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": "DonDeria"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/18.png",
+        "address": "0xf8a7f5a7286f71a4b582a0188a619177246aca8b",
+        "config": ""
+      },
+      "listing_time": null
+    },
+    {
+      "asset": {
+        "id": 67760319,
+        "token_id": "8247",
+        "num_sales": 15,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/b6663ac8e74311299303380b73070e75.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/b6663ac8e74311299303380b73070e75.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/b6663ac8e74311299303380b73070e75.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmPDA1iSjM3J1a8CG1CzXrRQj5tUjRAXHdJNKar6M1oEwy/white_white_grey_grey_bluegrey_bluegrey_A_1A_2A_3A_1A_1A_3A_0_0_0_0_0_0_0960.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #8247",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/8247",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/8247",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-09T10:21:23",
+      "auction_type": null,
+      "total_price": "460000000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0xee18f49a0d9213cce13a85afe85806c727f324def911d271c8f81145cae9ddfe",
+        "block_number": "16368611",
+        "from_account": {
+          "user": {
+            "username": "hqjcz1"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/26.png",
+          "address": "0x3e9e20680df719e874b60cd44a9329cc629bc4f1",
+          "config": ""
+        },
+        "id": 982630678,
+        "timestamp": "2023-01-09T10:21:23",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png",
+          "address": "0x000000000000ad05ccc4f10045630fb830b95127",
+          "config": ""
+        },
+        "transaction_hash": "0x1f306c6c6809c7bc110a5b8cef28ab3d6356819551092c1f1ab3ad2edeca7150",
+        "transaction_index": "79"
+      },
+      "created_date": "2023-01-09T10:21:24.868688",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": null,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9183424858,
+      "is_private": null,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "subharmonic"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png",
+        "address": "0x0cbb58cc03ee691e80bef4b0c7a4df2f505448f5",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": "hqjcz1"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/26.png",
+        "address": "0x3e9e20680df719e874b60cd44a9329cc629bc4f1",
+        "config": ""
+      },
+      "listing_time": null
+    },
+    {
+      "asset": {
+        "id": 68007393,
+        "token_id": "9",
+        "num_sales": 3,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/fa677e314f3ac1e8a438c293923853c2.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/fa677e314f3ac1e8a438c293923853c2.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/fa677e314f3ac1e8a438c293923853c2.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmUBXCBi7vjTAAZDMqGHaHSkTxc6Qke87U4Gxq1hx6LYsL/darkbrown_darkbrown_white_darkbrown_white_white_D_1D_1D_4D_3D_2D_1D_0_0_0_0_0_0_0128.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #9",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/9",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/9",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-09T09:56:47",
+      "auction_type": null,
+      "total_price": "590000000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x5f442ca78b50961b1706813cb70d00855b198b7c7b184f51967b2f36a5fe948c",
+        "block_number": "16368488",
+        "from_account": {
+          "user": {
+            "username": "Ant0106"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/17.png",
+          "address": "0xdb2e683b45030c3f995bf4688b853c98787f309b",
+          "config": ""
+        },
+        "id": 982475772,
+        "timestamp": "2023-01-09T09:56:47",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png",
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "config": ""
+        },
+        "transaction_hash": "0x36fc1e6797417af6ac3410df7dd71c94c5e40367399dff4870034a018aec5f30",
+        "transaction_index": "88"
+      },
+      "created_date": "2023-01-09T09:56:50.260732",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x00000000006c3852cbef3e08e8df289169ede581",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": 250,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9183094346,
+      "is_private": false,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "3so"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/22.png",
+        "address": "0x81ae8ca31350ad72bc29591ee54f1c66fffe126e",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": "Ant0106"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/17.png",
+        "address": "0xdb2e683b45030c3f995bf4688b853c98787f309b",
+        "config": ""
+      },
+      "listing_time": "2023-01-09T08:35:12"
+    },
+    {
+      "asset": {
+        "id": 67794860,
+        "token_id": "5989",
+        "num_sales": 2,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/198c5e1430aaef98f4cc610bc9c93398.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/198c5e1430aaef98f4cc610bc9c93398.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/198c5e1430aaef98f4cc610bc9c93398.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmPDA1iSjM3J1a8CG1CzXrRQj5tUjRAXHdJNKar6M1oEwy/white_white_darkgrey_darkgrey_white_bluegrey_B_3B_1B_5B_1B_1B_2B_0_0_0_0_0_0_0207.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #5989",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/5989",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/5989",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-09T09:52:59",
+      "auction_type": null,
+      "total_price": "500000000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0x83a76d5be64a9c872cc9ee3543c0f3938810d76764ac2b1cd05ff5aa2e6520e0",
+        "block_number": "16368469",
+        "from_account": {
+          "user": {
+            "username": "Ant0106"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/17.png",
+          "address": "0xdb2e683b45030c3f995bf4688b853c98787f309b",
+          "config": ""
+        },
+        "id": 982455162,
+        "timestamp": "2023-01-09T09:52:59",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/11.png",
+          "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+          "config": ""
+        },
+        "transaction_hash": "0xf86088f671fe9c50db580985810d97e24137697a8862c6b1f0cfc16e13b5860f",
+        "transaction_index": "110"
+      },
+      "created_date": "2023-01-09T09:53:01.738298",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x00000000006c3852cbef3e08e8df289169ede581",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": 250,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9183042764,
+      "is_private": false,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": null
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/20.png",
+        "address": "0x886cf70bab66becc693417c79c40e4d5e67f9252",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": "Ant0106"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/17.png",
+        "address": "0xdb2e683b45030c3f995bf4688b853c98787f309b",
+        "config": ""
+      },
+      "listing_time": "2023-01-09T08:01:43"
+    },
+    {
+      "asset": {
+        "id": 67791910,
+        "token_id": "2061",
+        "num_sales": 1,
+        "background_color": null,
+        "image_url": "https://i.seadn.io/gcs/files/a0c6e5efeb545cdce356a31ab73a67f8.png?w=500&auto=format",
+        "image_preview_url": "https://i.seadn.io/gcs/files/a0c6e5efeb545cdce356a31ab73a67f8.png?w=500&auto=format",
+        "image_thumbnail_url": "https://i.seadn.io/gcs/files/a0c6e5efeb545cdce356a31ab73a67f8.png?w=500&auto=format",
+        "image_original_url": "ipfs://QmUBXCBi7vjTAAZDMqGHaHSkTxc6Qke87U4Gxq1hx6LYsL/darkbrown_darkbrown_darkbrown_darkbrown_white_bluegrey_B_2B_3B_1B_2B_1B_1B_0_0_0_0_0_0_0749.png",
+        "animation_url": null,
+        "animation_original_url": null,
+        "name": "Meka #2061",
+        "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+        "external_link": null,
+        "asset_contract": {
+          "address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-10-07T20:21:56.075677",
+          "name": "MekaVerse",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 89919527,
+          "schema_name": "ERC721",
+          "symbol": "MEKA",
+          "total_supply": "0",
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "external_link": "https://themekaverse.com/",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 250,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 500,
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9"
+        },
+        "permalink": "https://opensea.io/assets/ethereum/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/2061",
+        "collection": {
+          "banner_image_url": "https://i.seadn.io/gae/-azSO3Yjh9gvJh8VDnp0yd_YeiNEiUoxStiFGKI4lfog8DVNBjozUz8buEX247SU7FRi_qMTwfoziIENLqAOgXCUh6O3gVWi8jD9?w=500&auto=format",
+          "chat_url": null,
+          "created_date": "2021-10-07T20:29:17.017760+00:00",
+          "default_to_fiat": false,
+          "description": "The MekaVerse is a collection of 8,888 generative Mekas inspired by the Japanese Anime universe.\n\nIn the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet. Which Faction are you going to join?\n\nEach MekaVerse NFT holder has access to exclusive events on Discord, Twitter, and more. \nThe Mekaverse does not stop at one planet, it extends far beyond that!\n\n[MekaBots](https://opensea.io/collection/themekabots)\n\n[MekaVerse Factory](https://opensea.io/collection/mekaverse-factory)\n\n",
+          "dev_buyer_fee_basis_points": "0",
+          "dev_seller_fee_basis_points": "250",
+          "discord_url": "https://discord.gg/mekaverse",
+          "display_data": {
+            "card_display_style": "cover"
+          },
+          "external_url": "https://themekaverse.com/",
+          "featured": false,
+          "featured_image_url": null,
+          "hidden": false,
+          "safelist_request_status": "verified",
+          "image_url": "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+          "is_subject_to_whitelist": false,
+          "large_image_url": null,
+          "medium_username": null,
+          "name": "MekaVerse",
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": "0",
+          "opensea_seller_fee_basis_points": "250",
+          "payout_address": "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9",
+          "require_email": false,
+          "short_description": null,
+          "slug": "mekaverse",
+          "telegram_url": null,
+          "twitter_username": "MekaVerse",
+          "instagram_username": null,
+          "wiki_url": null,
+          "is_nsfw": false,
+          "fees": {
+            "seller_fees": {
+              "0xeb0f137fba2bbd521d81e158b64ace1a88093ad9": 250
+            },
+            "opensea_fees": {
+              "0x0000a26b00c1f0df003000390027140000faa719": 250
+            }
+          },
+          "is_rarity_enabled": false,
+          "is_creator_fees_enforced": true
+        },
+        "decimals": 0,
+        "token_metadata": "https://ipfs.io/ipfs/Qmcob1MaPTXUZt5MztHEgsYhrf7R6G7wV8hpcweL8nEfgU/meka/2061",
+        "is_nsfw": false,
+        "owner": null
+      },
+      "asset_bundle": null,
+      "event_type": "successful",
+      "event_timestamp": "2023-01-09T06:48:23",
+      "auction_type": null,
+      "total_price": "479800000000000000",
+      "payment_token": {
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+        "name": "Ether",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "1524.650000000000091000"
+      },
+      "transaction": {
+        "block_hash": "0xa18ebd76b4460388762552ae2bf78f197587a4cdabde0ca6c0612a22664017e7",
+        "block_number": "16367548",
+        "from_account": {
+          "user": {
+            "username": "WebWizard"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/3.png",
+          "address": "0x54a008182e38e449c32c3fc64af927b352148d28",
+          "config": ""
+        },
+        "id": 981227582,
+        "timestamp": "2023-01-09T06:48:23",
+        "to_account": {
+          "user": null,
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png",
+          "address": "0x000000000000ad05ccc4f10045630fb830b95127",
+          "config": ""
+        },
+        "transaction_hash": "0xa04d49980e0b6c0d1462788a7ae23d8a32e8c97f56367f3ebd1e8059856e4142",
+        "transaction_index": "90"
+      },
+      "created_date": "2023-01-09T06:48:25.767566",
+      "quantity": "1",
+      "approved_account": null,
+      "bid_amount": null,
+      "collection_slug": "mekaverse",
+      "contract_address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+      "custom_event_name": null,
+      "dev_fee_payment_event": null,
+      "dev_seller_fee_basis_points": null,
+      "duration": null,
+      "ending_price": null,
+      "from_account": null,
+      "id": 9180412352,
+      "is_private": null,
+      "owner_account": null,
+      "seller": {
+        "user": {
+          "username": "MudaMuda"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/20.png",
+        "address": "0x9f4ebcb22447c64a21c687c1db6849ec55b8f016",
+        "config": ""
+      },
+      "starting_price": null,
+      "to_account": null,
+      "winner_account": {
+        "user": {
+          "username": "WebWizard"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/3.png",
+        "address": "0x54a008182e38e449c32c3fc64af927b352148d28",
+        "config": ""
+      },
+      "listing_time": null
+    }
+  ]
+}

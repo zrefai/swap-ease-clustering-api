@@ -1,18 +1,17 @@
-from data.sortedRankings import SortedRankings
-from dataProcessing.clusteringAlgorithms.DBSCAN import getDbscanLabels
-from dataProcessing.dimensionReducers.UMAP import createUmapEmbedding
+from data.clusters import Clusters
+from dataProcessing.clusteringAlgorithms.KMeans import getKMeanLabels
 from helpers.formatRankedData import formatRankedData
+from data.sortedRankings import SortedRankings
 
 def generateClustersHandler(contractAddress):
-    sortedRankingClass = SortedRankings()
+    sortedRanking = SortedRankings()
 
     # Get distributions data
-    rankedData = sortedRankingClass.getSortedRankings(contractAddress)
+    rankedData = sortedRanking.getSortedRankings(contractAddress)
 
     # Generate clusters from ranked data
     dataFrame = formatRankedData(rankedData)
-    umapEmbedding = createUmapEmbedding(dataFrame)
-    labels = getDbscanLabels(umapEmbedding)
+    labels = getKMeanLabels(dataFrame)
 
     clustersDict = {}
 
@@ -22,8 +21,7 @@ def generateClustersHandler(contractAddress):
         label = labels[index]
         token_information = {
             "token_id": token_id, 
-            "rank": index + 1, 
-            "token_information": dataFrame.iloc[index].values.tolist()
+            "rank": index + 1,
         }
 
         # Check if label is in dictionary
@@ -33,7 +31,14 @@ def generateClustersHandler(contractAddress):
             clustersDict[label.item()] = [token_information]
 
 
-    return {'data': clustersDict}
+    clusters = Clusters()
+
+    docId = clusters.addCluster(contractAddress, list(clustersDict.values()))
+
+    if docId:
+        return f'Success', 200
+    else:
+        return f'Failure', 500
 
 
 

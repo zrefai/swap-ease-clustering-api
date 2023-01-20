@@ -35,6 +35,14 @@ All dependencies should now be in the virtual environment. If we want to update 
 pip freeze > requirements.txt
 ```
 
+## Trouble shooting
+
+If a problem occurs with pip, say "No module name pip found", run this command
+
+```
+python -m ensurepip --default-pip
+```
+
 # Build and Test
 
 TODO: Describe and show how to build your code and run the tests.
