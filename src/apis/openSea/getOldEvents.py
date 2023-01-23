@@ -1,26 +1,56 @@
 import time
+from apis.openSea.eventsHandler import eventsHandler
 from helpers.getEnvVariables import getEnvVariables
 
 envVariables = getEnvVariables()
 
 DATE_RANGE = 90
 
-def retrieveOldEvents(contractAddress):
+def getOldEvents(contractAddress):
     currentTime = time.time()
     
     # Unix epoch time for events that occurred after this calculated time
     occuredAfter = currentTime - (86400*DATE_RANGE)
     
     url = urlBuilder(contractAddress, occuredAfter)
-
     headers = {
         "accept": "application/json",
         "X-API-KEY": envVariables['OPENSEA_API_KEY']
     }
 
-    events = []
+    response = eventsHandler(headers, url)
+    events = mergeBuckets({}, response["assetEvents"])
 
-    pass
+    while response["next"] is not None:
+        time.sleep(0.8)
+
+        url = urlBuilder(contractAddress, occuredAfter, response["next"])
+        response = eventsHandler(headers, url)
+        events = mergeBuckets(events, response["assetEvents"])
+        
+    return events
+
+def bucketEventsByTokenId(assetEvents):
+    buckets = {}
+
+    for event in assetEvents:
+        if event["tokenId"] in buckets:
+            buckets[event["tokenId"]].append(event)
+        else:
+            buckets[event["tokenId"]] = [event]
+    
+    return buckets
+
+def mergeBuckets(currBuckets, assetEvents):
+    newBuckets = bucketEventsByTokenId(assetEvents)
+
+    for tokenId in newBuckets.keys():
+        if tokenId in currBuckets:
+            currBuckets[tokenId] += newBuckets[tokenId]
+        else:
+            currBuckets[tokenId] = newBuckets[tokenId]
+
+    return currBuckets
 
 
 def urlBuilder(contractAddress, timestamp, cursor = None):

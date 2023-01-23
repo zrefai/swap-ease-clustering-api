@@ -1,6 +1,6 @@
 from flask import Flask, request
 from flask_restful import Api
-from handlers.generateClustersHandler import generateClustersHandler
+from handlers.generateClusters.generateClustersHandler import generateClustersHandler
 
 app = Flask(__name__)
 api = Api(app)
@@ -11,10 +11,10 @@ api = Api(app)
 def index():
     return 'Hello World', 200
 
-@app.route('/cluster', methods=['GET', 'POST'])
-def cluster():
+@app.route('/generateClusters', methods=['GET', 'POST'])
+def generateClusters():
     if request.method == 'POST':
-        return generateClustersHandler(request.form['contract_address'])
+        return generateClustersHandler(request.form['contractAddress'])
 
     return 'Invalid method', 405
 
