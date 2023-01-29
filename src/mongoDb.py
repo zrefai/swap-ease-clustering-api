@@ -1,4 +1,4 @@
-from pymongo import MongoClient
+import pymongo
 from helpers.getEnvVariables import getEnvVariables
 
 envVariables = getEnvVariables()
@@ -6,7 +6,7 @@ envVariables = getEnvVariables()
 def get_db():
 
     # Create a connection using MongoClient. You can import MongoClient or use pymongo.MongoClient
-   client = MongoClient(envVariables['MONGO_DB_CONNECTION_STRING'])
+   client = pymongo.MongoClient(envVariables['MONGO_DB_CONNECTION_STRING'])
  
    # Create the database for our example (we will use the same database throughout the tutorial
    return client[envVariables['MONGO_DB_NAME']]

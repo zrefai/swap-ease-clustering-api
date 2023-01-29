@@ -1,20 +1,17 @@
 import requests
 
-def eventsHandler(headers, url):
+def eventsService(headers, url):
     response = requests.get(url, headers=headers)
 
     if response.ok:
         return eventsMapper(response.json())
-    else:
-        print("Error at {url}")
 
     return {
         "next": None,
-        "asset_events": []
+        "assetEvents": []
     }
 
 def eventsMapper(response):
-
     def getEvent(e):
         return {
             "tokenId": e["asset"]["token_id"],
@@ -25,5 +22,5 @@ def eventsMapper(response):
     
     return {
         "next": response["next"],
-        "assetEvents": map(getEvent, response["asset_events"])
+        "assetEvents": list(map(getEvent, response["asset_events"]))
     }

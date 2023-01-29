@@ -10,24 +10,19 @@ class TestAggregateEvents(unittest.TestCase):
         self.assertEqual(self.result[0]["totalVolume"], 3.4494199)
         self.assertEqual(self.result[0]["highestSale"], 0.65)
         self.assertEqual(self.result[0]["lowestSale"], 0.3)
-        self.assertEqual(self.result[0]["rankAverage"], 2.5)
+        self.assertEqual(self.result[0]["rankAverage"], 7.5)
         self.assertEqual(self.result[0]["totalSales"], 8)
     
     def test_returns_expected_aggregates_from_empty_events(self):
         self.assertEqual(self.result[2]["totalVolume"], 0)
         self.assertEqual(self.result[2]["highestSale"], None)
         self.assertEqual(self.result[2]["lowestSale"], None)
-        self.assertEqual(self.result[2]["rankAverage"], 5758.5)
+        self.assertEqual(self.result[2]["rankAverage"], 11.5)
         self.assertEqual(self.result[2]["totalSales"], 0)
 
 mockClustersAndEvents = {
   "1": {
-    "nfts": [
-      { "rank": 1, "tokenId": "1" },
-      { "rank": 2, "tokenId": "2" },
-      { "rank": 3, "tokenId": "3" },
-      { "rank": 4, "tokenId": "4" }
-    ],
+    "nfts": { "1": 6, "2": 7, "3": 8, "4": 9 },
     "events": [
       {
         "eventTimestamp": "2022-12-07T21:13:47",
@@ -80,13 +75,7 @@ mockClustersAndEvents = {
     ]
   },
   "0": {
-    "nfts": [
-      { "rank": 5, "tokenId": "5" },
-      { "rank": 6, "tokenId": "6" },
-      { "rank": 7, "tokenId": "7" },
-      { "rank": 8, "tokenId": "8" },
-      { "rank": 9, "tokenId": "9" }
-    ],
+    "nfts": { "5": 5, "6": 3, "7": 2, "8": 1 },
     "events": [
       {
         "eventTimestamp": "2022-11-22T14:34:23",
@@ -126,25 +115,10 @@ mockClustersAndEvents = {
       }
     ]
   },
-  "2": {
-    "nfts": [
-      { "rank": 10, "tokenId": "8597" },
-      { "rank": 12, "tokenId": "6273" },
-      { "rank": 13, "tokenId": "6242" },
-      { "rank": 14, "tokenId": "1922" }
-    ],
-    "events": []
-  },
-  "3": {
-    "nfts": [
-      { "rank": 111, "tokenId": "8597" },
-      { "rank": 211, "tokenId": "6273" },
-      { "rank": 311, "tokenId": "6242" },
-      { "rank": 411, "tokenId": "1922" }
-    ],
-    "events": []
-  }
+  "2": { "nfts": { "1": 10, "2": 11, "3": 12, "4": 13 }, "events": [] },
+  "3": { "nfts": { "1": 6, "2": 7, "3": 8, "4": 9 }, "events": [] }
 }
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -37,10 +37,18 @@ pip freeze > requirements.txt
 
 ## Starting API
 
-To start, run
+To start, run (from root)
 
 ```
 python3 src/app.py
+```
+
+## Testing
+
+To run the testing suite, run from src/tests
+
+```
+python3 -m unittest
 ```
 
 ## Trouble shooting
@@ -48,8 +56,16 @@ python3 src/app.py
 If a problem occurs with pip, say "No module name pip found", run this command
 
 ```
-python -m ensurepip --default-pip
+python3 -m ensurepip --default-pip
 ```
+
+If you need to deactivate the virtual environment
+
+```
+deactivate
+```
+
+If you absolutely can't figure out whats going on with the packages (for some reason it's just not working), you can delete venv and run through installing the dependencies from scratch
 
 # Build and Test
 

@@ -1,16 +1,12 @@
-from src.handlers.generateClusters.isTokenIdInCluster import isTokenIdInCluster
-
 def addEventsToClusters(events, clusters):
     clustersAndEvents = {}
 
     # Add associated events to respective clusters
     for tokenId in events.keys():
         for clusterNumber in clusters.keys():
-            # Search for tokenId in cluster
-            result = isTokenIdInCluster(clusters[clusterNumber], int(tokenId))
 
             # If found, add events and nfts from cluster
-            if result:
+            if tokenId in clusters[clusterNumber]:
                 if clusterNumber in clustersAndEvents:
                     clustersAndEvents[clusterNumber]["events"].extend(events[tokenId])
                 else:

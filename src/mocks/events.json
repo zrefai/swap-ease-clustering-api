@@ -1,4 +1,674 @@
 {
+  "1785": [
+    {
+      "tokenId": "1785",
+      "eventTimestamp": "2023-01-22T23:56:59",
+      "totalPrice": "391410000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "8272": [
+    {
+      "tokenId": "8272",
+      "eventTimestamp": "2023-01-22T23:32:35",
+      "totalPrice": "502500000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "7025": [
+    {
+      "tokenId": "7025",
+      "eventTimestamp": "2023-01-22T23:27:59",
+      "totalPrice": "600000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "7025",
+      "eventTimestamp": "2023-01-04T20:00:23",
+      "totalPrice": "700000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "3550": [
+    {
+      "tokenId": "3550",
+      "eventTimestamp": "2023-01-22T21:41:11",
+      "totalPrice": "340000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "3550",
+      "eventTimestamp": "2023-01-11T05:49:23",
+      "totalPrice": "440000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "3550",
+      "eventTimestamp": "2023-01-04T07:50:59",
+      "totalPrice": "550000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "3550",
+      "eventTimestamp": "2022-11-28T04:39:11",
+      "totalPrice": "449000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "3803": [
+    {
+      "tokenId": "3803",
+      "eventTimestamp": "2023-01-22T20:42:11",
+      "totalPrice": "340000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "3803",
+      "eventTimestamp": "2023-01-22T17:31:47",
+      "totalPrice": "340000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "3803",
+      "eventTimestamp": "2023-01-22T12:59:23",
+      "totalPrice": "340000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "3803",
+      "eventTimestamp": "2023-01-22T07:15:11",
+      "totalPrice": "380000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "3803",
+      "eventTimestamp": "2023-01-20T20:59:47",
+      "totalPrice": "350000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "3803",
+      "eventTimestamp": "2023-01-20T01:22:23",
+      "totalPrice": "320000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "3803",
+      "eventTimestamp": "2023-01-19T14:50:59",
+      "totalPrice": "320000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "3803",
+      "eventTimestamp": "2023-01-15T12:29:35",
+      "totalPrice": "330000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "3803",
+      "eventTimestamp": "2023-01-15T00:40:23",
+      "totalPrice": "350000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "3803",
+      "eventTimestamp": "2023-01-04T06:39:47",
+      "totalPrice": "540000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "3803",
+      "eventTimestamp": "2022-11-16T20:34:59",
+      "totalPrice": "279000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "3803",
+      "eventTimestamp": "2022-10-26T02:18:59",
+      "totalPrice": "190000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "7158": [
+    {
+      "tokenId": "7158",
+      "eventTimestamp": "2023-01-22T20:23:35",
+      "totalPrice": "1081200000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "7158",
+      "eventTimestamp": "2023-01-20T10:22:47",
+      "totalPrice": "450000000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "8279": [
+    {
+      "tokenId": "8279",
+      "eventTimestamp": "2023-01-22T20:13:23",
+      "totalPrice": "426900000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "8279",
+      "eventTimestamp": "2022-12-11T18:48:47",
+      "totalPrice": "331500000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "6404": [
+    {
+      "tokenId": "6404",
+      "eventTimestamp": "2023-01-22T20:13:23",
+      "totalPrice": "468000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "6404",
+      "eventTimestamp": "2023-01-10T04:45:23",
+      "totalPrice": "441900000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "4080": [
+    {
+      "tokenId": "4080",
+      "eventTimestamp": "2023-01-22T20:13:23",
+      "totalPrice": "420000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "3596": [
+    {
+      "tokenId": "3596",
+      "eventTimestamp": "2023-01-22T20:13:23",
+      "totalPrice": "370000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "2785": [
+    {
+      "tokenId": "2785",
+      "eventTimestamp": "2023-01-22T20:13:23",
+      "totalPrice": "398000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "2785",
+      "eventTimestamp": "2023-01-20T12:05:59",
+      "totalPrice": "311100000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "2766": [
+    {
+      "tokenId": "2766",
+      "eventTimestamp": "2023-01-22T20:13:23",
+      "totalPrice": "449000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "2766",
+      "eventTimestamp": "2023-01-21T16:09:47",
+      "totalPrice": "837000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "2766",
+      "eventTimestamp": "2023-01-21T16:09:47",
+      "totalPrice": "499000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "2766",
+      "eventTimestamp": "2023-01-14T01:59:35",
+      "totalPrice": "470000000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "2025": [
+    {
+      "tokenId": "2025",
+      "eventTimestamp": "2023-01-22T20:13:23",
+      "totalPrice": "450000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "2025",
+      "eventTimestamp": "2023-01-15T06:28:35",
+      "totalPrice": "385000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "2025",
+      "eventTimestamp": "2023-01-15T00:40:23",
+      "totalPrice": "340000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "2025",
+      "eventTimestamp": "2022-12-31T07:20:23",
+      "totalPrice": "500000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "2025",
+      "eventTimestamp": "2022-11-28T14:16:11",
+      "totalPrice": "500000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "6452": [
+    {
+      "tokenId": "6452",
+      "eventTimestamp": "2023-01-22T20:13:23",
+      "totalPrice": "379900000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "6452",
+      "eventTimestamp": "2023-01-22T12:54:59",
+      "totalPrice": "350000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "6452",
+      "eventTimestamp": "2023-01-22T07:15:11",
+      "totalPrice": "380000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "6452",
+      "eventTimestamp": "2023-01-20T21:00:47",
+      "totalPrice": "380000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "177": [
+    {
+      "tokenId": "177",
+      "eventTimestamp": "2023-01-22T20:13:23",
+      "totalPrice": "435000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "177",
+      "eventTimestamp": "2023-01-15T01:52:59",
+      "totalPrice": "340000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "177",
+      "eventTimestamp": "2023-01-14T15:39:35",
+      "totalPrice": "390000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "177",
+      "eventTimestamp": "2022-12-31T07:20:23",
+      "totalPrice": "374400000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "2594": [
+    {
+      "tokenId": "2594",
+      "eventTimestamp": "2023-01-22T19:56:59",
+      "totalPrice": "369900000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "2594",
+      "eventTimestamp": "2023-01-21T10:39:35",
+      "totalPrice": "341810000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "2594",
+      "eventTimestamp": "2023-01-06T04:09:59",
+      "totalPrice": "590000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "5375": [
+    {
+      "tokenId": "5375",
+      "eventTimestamp": "2023-01-22T17:17:47",
+      "totalPrice": "366000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "2072": [
+    {
+      "tokenId": "2072",
+      "eventTimestamp": "2023-01-22T13:25:11",
+      "totalPrice": "365100000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "2072",
+      "eventTimestamp": "2023-01-21T10:40:23",
+      "totalPrice": "341800000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "2072",
+      "eventTimestamp": "2023-01-06T04:09:59",
+      "totalPrice": "580000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "2072",
+      "eventTimestamp": "2023-01-05T16:06:35",
+      "totalPrice": "530000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "2072",
+      "eventTimestamp": "2022-12-23T04:30:23",
+      "totalPrice": "330000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "2072",
+      "eventTimestamp": "2022-12-23T01:15:59",
+      "totalPrice": "305400000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "2072",
+      "eventTimestamp": "2022-12-07T17:33:59",
+      "totalPrice": "399000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "2685": [
+    {
+      "tokenId": "2685",
+      "eventTimestamp": "2023-01-22T12:05:35",
+      "totalPrice": "365900000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "2685",
+      "eventTimestamp": "2023-01-20T22:29:47",
+      "totalPrice": "337210000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "1941": [
+    {
+      "tokenId": "1941",
+      "eventTimestamp": "2023-01-22T11:43:23",
+      "totalPrice": "345000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "1941",
+      "eventTimestamp": "2022-11-29T03:51:59",
+      "totalPrice": "416000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "5806": [
+    {
+      "tokenId": "5806",
+      "eventTimestamp": "2023-01-22T05:51:23",
+      "totalPrice": "366500000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "5806",
+      "eventTimestamp": "2023-01-21T11:50:59",
+      "totalPrice": "341100000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "429": [
+    {
+      "tokenId": "429",
+      "eventTimestamp": "2023-01-21T21:59:47",
+      "totalPrice": "340000000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "3666": [
+    {
+      "tokenId": "3666",
+      "eventTimestamp": "2023-01-21T13:28:47",
+      "totalPrice": "341000000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "3692": [
+    {
+      "tokenId": "3692",
+      "eventTimestamp": "2023-01-21T13:27:59",
+      "totalPrice": "341000000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "3937": [
+    {
+      "tokenId": "3937",
+      "eventTimestamp": "2023-01-21T13:26:59",
+      "totalPrice": "341000000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "2868": [
+    {
+      "tokenId": "2868",
+      "eventTimestamp": "2023-01-21T13:16:59",
+      "totalPrice": "392000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "2868",
+      "eventTimestamp": "2023-01-21T07:19:35",
+      "totalPrice": "350000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "2868",
+      "eventTimestamp": "2023-01-05T17:21:47",
+      "totalPrice": "668000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "2868",
+      "eventTimestamp": "2023-01-05T04:43:11",
+      "totalPrice": "600594750000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "2868",
+      "eventTimestamp": "2022-12-13T04:20:11",
+      "totalPrice": "420000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "7496": [
+    {
+      "tokenId": "7496",
+      "eventTimestamp": "2023-01-21T08:00:11",
+      "totalPrice": "500000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "3866": [
+    {
+      "tokenId": "3866",
+      "eventTimestamp": "2023-01-21T06:30:23",
+      "totalPrice": "499000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "3866",
+      "eventTimestamp": "2023-01-08T19:58:11",
+      "totalPrice": "453180000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "4922": [
+    {
+      "tokenId": "4922",
+      "eventTimestamp": "2023-01-21T05:23:23",
+      "totalPrice": "350000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "4922",
+      "eventTimestamp": "2023-01-19T12:48:47",
+      "totalPrice": "330000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "4922",
+      "eventTimestamp": "2023-01-19T09:45:59",
+      "totalPrice": "330000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "4922",
+      "eventTimestamp": "2023-01-19T03:01:59",
+      "totalPrice": "330000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "4922",
+      "eventTimestamp": "2023-01-18T23:27:59",
+      "totalPrice": "340000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "4922",
+      "eventTimestamp": "2023-01-14T15:39:35",
+      "totalPrice": "360000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "4922",
+      "eventTimestamp": "2023-01-04T06:30:47",
+      "totalPrice": "400000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "4922",
+      "eventTimestamp": "2022-12-31T07:23:23",
+      "totalPrice": "400000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "4922",
+      "eventTimestamp": "2022-12-20T09:29:35",
+      "totalPrice": "348000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "4922",
+      "eventTimestamp": "2022-12-20T06:09:47",
+      "totalPrice": "340000000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "136": [
+    {
+      "tokenId": "136",
+      "eventTimestamp": "2023-01-21T05:04:35",
+      "totalPrice": "350000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "136",
+      "eventTimestamp": "2023-01-20T12:45:11",
+      "totalPrice": "320000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "136",
+      "eventTimestamp": "2023-01-20T09:43:11",
+      "totalPrice": "320000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "136",
+      "eventTimestamp": "2023-01-19T19:16:11",
+      "totalPrice": "320000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "136",
+      "eventTimestamp": "2023-01-19T14:42:35",
+      "totalPrice": "320000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "136",
+      "eventTimestamp": "2023-01-16T09:59:47",
+      "totalPrice": "340000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "136",
+      "eventTimestamp": "2023-01-16T06:36:11",
+      "totalPrice": "340000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "136",
+      "eventTimestamp": "2023-01-05T17:21:47",
+      "totalPrice": "599800000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "136",
+      "eventTimestamp": "2023-01-05T15:57:35",
+      "totalPrice": "540000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "136",
+      "eventTimestamp": "2022-12-21T06:15:59",
+      "totalPrice": "340000000000000000",
+      "paymentToken": "WETH"
+    },
+    {
+      "tokenId": "136",
+      "eventTimestamp": "2022-11-22T13:58:47",
+      "totalPrice": "360000000000000000",
+      "paymentToken": "ETH"
+    }
+  ],
+  "6967": [
+    {
+      "tokenId": "6967",
+      "eventTimestamp": "2023-01-21T03:23:23",
+      "totalPrice": "410000000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
+  "3765": [
+    {
+      "tokenId": "3765",
+      "eventTimestamp": "2023-01-21T00:34:59",
+      "totalPrice": "599000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "3765",
+      "eventTimestamp": "2023-01-13T15:41:23",
+      "totalPrice": "490000000000000000",
+      "paymentToken": "ETH"
+    },
+    {
+      "tokenId": "3765",
+      "eventTimestamp": "2023-01-13T01:48:35",
+      "totalPrice": "425000000000000000",
+      "paymentToken": "WETH"
+    }
+  ],
   "6340": [
     {
       "tokenId": "6340",
@@ -10,14 +680,6 @@
       "tokenId": "6340",
       "eventTimestamp": "2023-01-10T04:46:11",
       "totalPrice": "441900000000000000",
-      "paymentToken": "WETH"
-    }
-  ],
-  "2685": [
-    {
-      "tokenId": "2685",
-      "eventTimestamp": "2023-01-20T22:29:47",
-      "totalPrice": "337210000000000000",
       "paymentToken": "WETH"
     }
   ],
@@ -83,64 +745,6 @@
       "eventTimestamp": "2022-11-22T16:58:59",
       "totalPrice": "344500000000000000",
       "paymentToken": "WETH"
-    }
-  ],
-  "6452": [
-    {
-      "tokenId": "6452",
-      "eventTimestamp": "2023-01-20T21:00:47",
-      "totalPrice": "380000000000000000",
-      "paymentToken": "ETH"
-    }
-  ],
-  "3803": [
-    {
-      "tokenId": "3803",
-      "eventTimestamp": "2023-01-20T20:59:47",
-      "totalPrice": "350000000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "3803",
-      "eventTimestamp": "2023-01-20T01:22:23",
-      "totalPrice": "320000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "3803",
-      "eventTimestamp": "2023-01-19T14:50:59",
-      "totalPrice": "320000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "3803",
-      "eventTimestamp": "2023-01-15T12:29:35",
-      "totalPrice": "330000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "3803",
-      "eventTimestamp": "2023-01-15T00:40:23",
-      "totalPrice": "350000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "3803",
-      "eventTimestamp": "2023-01-04T06:39:47",
-      "totalPrice": "540000000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "3803",
-      "eventTimestamp": "2022-11-16T20:34:59",
-      "totalPrice": "279000000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "3803",
-      "eventTimestamp": "2022-10-26T02:18:59",
-      "totalPrice": "190000000000000000",
-      "paymentToken": "ETH"
     }
   ],
   "2998": [
@@ -282,84 +886,6 @@
       "tokenId": "5785",
       "eventTimestamp": "2023-01-20T14:26:11",
       "totalPrice": "300000000000000000",
-      "paymentToken": "WETH"
-    }
-  ],
-  "136": [
-    {
-      "tokenId": "136",
-      "eventTimestamp": "2023-01-20T12:45:11",
-      "totalPrice": "320000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "136",
-      "eventTimestamp": "2023-01-20T09:43:11",
-      "totalPrice": "320000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "136",
-      "eventTimestamp": "2023-01-19T19:16:11",
-      "totalPrice": "320000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "136",
-      "eventTimestamp": "2023-01-19T14:42:35",
-      "totalPrice": "320000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "136",
-      "eventTimestamp": "2023-01-16T09:59:47",
-      "totalPrice": "340000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "136",
-      "eventTimestamp": "2023-01-16T06:36:11",
-      "totalPrice": "340000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "136",
-      "eventTimestamp": "2023-01-05T17:21:47",
-      "totalPrice": "599800000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "136",
-      "eventTimestamp": "2023-01-05T15:57:35",
-      "totalPrice": "540000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "136",
-      "eventTimestamp": "2022-12-21T06:15:59",
-      "totalPrice": "340000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "136",
-      "eventTimestamp": "2022-11-22T13:58:47",
-      "totalPrice": "360000000000000000",
-      "paymentToken": "ETH"
-    }
-  ],
-  "2785": [
-    {
-      "tokenId": "2785",
-      "eventTimestamp": "2023-01-20T12:05:59",
-      "totalPrice": "311100000000000000",
-      "paymentToken": "WETH"
-    }
-  ],
-  "7158": [
-    {
-      "tokenId": "7158",
-      "eventTimestamp": "2023-01-20T10:22:47",
-      "totalPrice": "450000000000000000",
       "paymentToken": "WETH"
     }
   ],
@@ -582,62 +1108,6 @@
       "tokenId": "1318",
       "eventTimestamp": "2023-01-19T01:56:35",
       "totalPrice": "314700000000000000",
-      "paymentToken": "WETH"
-    }
-  ],
-  "4922": [
-    {
-      "tokenId": "4922",
-      "eventTimestamp": "2023-01-19T12:48:47",
-      "totalPrice": "330000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "4922",
-      "eventTimestamp": "2023-01-19T09:45:59",
-      "totalPrice": "330000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "4922",
-      "eventTimestamp": "2023-01-19T03:01:59",
-      "totalPrice": "330000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "4922",
-      "eventTimestamp": "2023-01-18T23:27:59",
-      "totalPrice": "340000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "4922",
-      "eventTimestamp": "2023-01-14T15:39:35",
-      "totalPrice": "360000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "4922",
-      "eventTimestamp": "2023-01-04T06:30:47",
-      "totalPrice": "400000000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "4922",
-      "eventTimestamp": "2022-12-31T07:23:23",
-      "totalPrice": "400000000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "4922",
-      "eventTimestamp": "2022-12-20T09:29:35",
-      "totalPrice": "348000000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "4922",
-      "eventTimestamp": "2022-12-20T06:09:47",
-      "totalPrice": "340000000000000000",
       "paymentToken": "WETH"
     }
   ],
@@ -889,12 +1359,6 @@
       "eventTimestamp": "2022-10-26T05:48:59",
       "totalPrice": "257400000000000000",
       "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "2049",
-      "eventTimestamp": "2022-10-24T09:08:11",
-      "totalPrice": "238699999999999995",
-      "paymentToken": "WETH"
     }
   ],
   "7617": [
@@ -909,12 +1373,6 @@
       "eventTimestamp": "2022-11-01T04:39:47",
       "totalPrice": "260000000000000000",
       "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "7617",
-      "eventTimestamp": "2022-10-24T09:10:11",
-      "totalPrice": "239210000000000000",
-      "paymentToken": "WETH"
     }
   ],
   "5360": [
@@ -981,12 +1439,6 @@
       "eventTimestamp": "2022-10-28T04:01:23",
       "totalPrice": "246690000000000000",
       "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "721",
-      "eventTimestamp": "2022-10-24T09:09:23",
-      "totalPrice": "235513000000000000",
-      "paymentToken": "WETH"
     }
   ],
   "1157": [
@@ -1619,32 +2071,6 @@
       "paymentToken": "ETH"
     }
   ],
-  "2025": [
-    {
-      "tokenId": "2025",
-      "eventTimestamp": "2023-01-15T06:28:35",
-      "totalPrice": "385000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "2025",
-      "eventTimestamp": "2023-01-15T00:40:23",
-      "totalPrice": "340000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "2025",
-      "eventTimestamp": "2022-12-31T07:20:23",
-      "totalPrice": "500000000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "2025",
-      "eventTimestamp": "2022-11-28T14:16:11",
-      "totalPrice": "500000000000000000",
-      "paymentToken": "ETH"
-    }
-  ],
   "6155": [
     {
       "tokenId": "6155",
@@ -1688,26 +2114,6 @@
       "tokenId": "826",
       "eventTimestamp": "2023-01-04T06:39:47",
       "totalPrice": "470000000000000000",
-      "paymentToken": "ETH"
-    }
-  ],
-  "177": [
-    {
-      "tokenId": "177",
-      "eventTimestamp": "2023-01-15T01:52:59",
-      "totalPrice": "340000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "177",
-      "eventTimestamp": "2023-01-14T15:39:35",
-      "totalPrice": "390000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "177",
-      "eventTimestamp": "2022-12-31T07:20:23",
-      "totalPrice": "374400000000000000",
       "paymentToken": "ETH"
     }
   ],
@@ -2145,14 +2551,6 @@
       "paymentToken": "ETH"
     }
   ],
-  "2766": [
-    {
-      "tokenId": "2766",
-      "eventTimestamp": "2023-01-14T01:59:35",
-      "totalPrice": "470000000000000000",
-      "paymentToken": "WETH"
-    }
-  ],
   "8631": [
     {
       "tokenId": "8631",
@@ -2277,20 +2675,6 @@
       "eventTimestamp": "2023-01-13T21:38:23",
       "totalPrice": "500000000000000000",
       "paymentToken": "ETH"
-    }
-  ],
-  "3765": [
-    {
-      "tokenId": "3765",
-      "eventTimestamp": "2023-01-13T15:41:23",
-      "totalPrice": "490000000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "3765",
-      "eventTimestamp": "2023-01-13T01:48:35",
-      "totalPrice": "425000000000000000",
-      "paymentToken": "WETH"
     }
   ],
   "3776": [
@@ -2550,26 +2934,6 @@
       "tokenId": "8713",
       "eventTimestamp": "2022-11-18T21:01:47",
       "totalPrice": "350000000000000000",
-      "paymentToken": "ETH"
-    }
-  ],
-  "3550": [
-    {
-      "tokenId": "3550",
-      "eventTimestamp": "2023-01-11T05:49:23",
-      "totalPrice": "440000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "3550",
-      "eventTimestamp": "2023-01-04T07:50:59",
-      "totalPrice": "550000000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "3550",
-      "eventTimestamp": "2022-11-28T04:39:11",
-      "totalPrice": "449000000000000000",
       "paymentToken": "ETH"
     }
   ],
@@ -2960,14 +3324,6 @@
       "tokenId": "2325",
       "eventTimestamp": "2023-01-10T04:45:47",
       "totalPrice": "520600000000000000",
-      "paymentToken": "WETH"
-    }
-  ],
-  "6404": [
-    {
-      "tokenId": "6404",
-      "eventTimestamp": "2023-01-10T04:45:23",
-      "totalPrice": "441900000000000000",
       "paymentToken": "WETH"
     }
   ],
@@ -3473,14 +3829,6 @@
       "paymentToken": "ETH"
     }
   ],
-  "3866": [
-    {
-      "tokenId": "3866",
-      "eventTimestamp": "2023-01-08T19:58:11",
-      "totalPrice": "453180000000000000",
-      "paymentToken": "WETH"
-    }
-  ],
   "3675": [
     {
       "tokenId": "3675",
@@ -3555,46 +3903,6 @@
       "paymentToken": "ETH"
     }
   ],
-  "2072": [
-    {
-      "tokenId": "2072",
-      "eventTimestamp": "2023-01-06T04:09:59",
-      "totalPrice": "580000000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "2072",
-      "eventTimestamp": "2023-01-05T16:06:35",
-      "totalPrice": "530000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "2072",
-      "eventTimestamp": "2022-12-23T04:30:23",
-      "totalPrice": "330000000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "2072",
-      "eventTimestamp": "2022-12-23T01:15:59",
-      "totalPrice": "305400000000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "2072",
-      "eventTimestamp": "2022-12-07T17:33:59",
-      "totalPrice": "399000000000000000",
-      "paymentToken": "ETH"
-    }
-  ],
-  "2594": [
-    {
-      "tokenId": "2594",
-      "eventTimestamp": "2023-01-06T04:09:59",
-      "totalPrice": "590000000000000000",
-      "paymentToken": "ETH"
-    }
-  ],
   "3423": [
     {
       "tokenId": "3423",
@@ -3635,26 +3943,6 @@
       "eventTimestamp": "2023-01-05T21:54:11",
       "totalPrice": "530000000000000000",
       "paymentToken": "WETH"
-    }
-  ],
-  "2868": [
-    {
-      "tokenId": "2868",
-      "eventTimestamp": "2023-01-05T17:21:47",
-      "totalPrice": "668000000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "2868",
-      "eventTimestamp": "2023-01-05T04:43:11",
-      "totalPrice": "600594750000000000",
-      "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "2868",
-      "eventTimestamp": "2022-12-13T04:20:11",
-      "totalPrice": "420000000000000000",
-      "paymentToken": "ETH"
     }
   ],
   "2777": [
@@ -3762,14 +4050,6 @@
       "tokenId": "1761",
       "eventTimestamp": "2023-01-05T16:08:11",
       "totalPrice": "619000000000000000",
-      "paymentToken": "ETH"
-    }
-  ],
-  "7025": [
-    {
-      "tokenId": "7025",
-      "eventTimestamp": "2023-01-04T20:00:23",
-      "totalPrice": "700000000000000000",
       "paymentToken": "ETH"
     }
   ],
@@ -6033,14 +6313,6 @@
       "paymentToken": "WETH"
     }
   ],
-  "8279": [
-    {
-      "tokenId": "8279",
-      "eventTimestamp": "2022-12-11T18:48:47",
-      "totalPrice": "331500000000000000",
-      "paymentToken": "ETH"
-    }
-  ],
   "8581": [
     {
       "tokenId": "8581",
@@ -7163,14 +7435,6 @@
       "paymentToken": "ETH"
     }
   ],
-  "1941": [
-    {
-      "tokenId": "1941",
-      "eventTimestamp": "2022-11-29T03:51:59",
-      "totalPrice": "416000000000000000",
-      "paymentToken": "ETH"
-    }
-  ],
   "6416": [
     {
       "tokenId": "6416",
@@ -7713,18 +7977,6 @@
       "eventTimestamp": "2022-10-25T05:16:47",
       "totalPrice": "320000000000000000",
       "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "317",
-      "eventTimestamp": "2022-10-24T15:50:11",
-      "totalPrice": "284500000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "317",
-      "eventTimestamp": "2022-10-24T09:04:11",
-      "totalPrice": "240300000000000000",
-      "paymentToken": "WETH"
     }
   ],
   "3615": [
@@ -8635,12 +8887,6 @@
       "eventTimestamp": "2022-11-18T20:07:23",
       "totalPrice": "568400000000000000",
       "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "6132",
-      "eventTimestamp": "2022-10-24T18:13:59",
-      "totalPrice": "280000000000000000",
-      "paymentToken": "WETH"
     }
   ],
   "8559": [
@@ -8763,12 +9009,6 @@
       "eventTimestamp": "2022-10-31T04:17:11",
       "totalPrice": "229390000000000000",
       "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "4244",
-      "eventTimestamp": "2022-10-24T09:10:47",
-      "totalPrice": "235513000000000000",
-      "paymentToken": "WETH"
     }
   ],
   "3303": [
@@ -9019,12 +9259,6 @@
       "eventTimestamp": "2022-10-30T17:23:47",
       "totalPrice": "245000000000000000",
       "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "2570",
-      "eventTimestamp": "2022-10-24T09:06:35",
-      "totalPrice": "239900000000000000",
-      "paymentToken": "WETH"
     }
   ],
   "6929": [
@@ -9069,12 +9303,6 @@
       "eventTimestamp": "2022-11-08T07:50:35",
       "totalPrice": "207550999999999990",
       "paymentToken": "WETH"
-    },
-    {
-      "tokenId": "875",
-      "eventTimestamp": "2022-10-24T16:24:11",
-      "totalPrice": "283600000000000000",
-      "paymentToken": "ETH"
     }
   ],
   "8352": [
@@ -9083,12 +9311,6 @@
       "eventTimestamp": "2022-11-11T20:16:11",
       "totalPrice": "258800000000000000",
       "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "8352",
-      "eventTimestamp": "2022-10-24T09:08:47",
-      "totalPrice": "237810999999999994",
-      "paymentToken": "WETH"
     }
   ],
   "4663": [
@@ -9211,12 +9433,6 @@
       "eventTimestamp": "2022-10-26T04:14:11",
       "totalPrice": "249300000000000000",
       "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "6910",
-      "eventTimestamp": "2022-10-24T09:04:47",
-      "totalPrice": "240200000000000000",
-      "paymentToken": "WETH"
     }
   ],
   "4114": [
@@ -9335,12 +9551,6 @@
       "eventTimestamp": "2022-11-01T00:21:23",
       "totalPrice": "270000000000000000",
       "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "7462",
-      "eventTimestamp": "2022-10-24T09:11:23",
-      "totalPrice": "239210000000000000",
-      "paymentToken": "WETH"
     }
   ],
   "1222": [
@@ -9477,52 +9687,6 @@
       "eventTimestamp": "2022-10-26T05:52:59",
       "totalPrice": "257500000000000000",
       "paymentToken": "ETH"
-    }
-  ],
-  "6205": [
-    {
-      "tokenId": "6205",
-      "eventTimestamp": "2022-10-24T23:24:11",
-      "totalPrice": "240000000000000000",
-      "paymentToken": "ETH"
-    }
-  ],
-  "852": [
-    {
-      "tokenId": "852",
-      "eventTimestamp": "2022-10-24T09:02:11",
-      "totalPrice": "240300000000000000",
-      "paymentToken": "WETH"
-    }
-  ],
-  "5266": [
-    {
-      "tokenId": "5266",
-      "eventTimestamp": "2022-10-24T00:19:35",
-      "totalPrice": "259000000000000000",
-      "paymentToken": "ETH"
-    }
-  ],
-  "1997": [
-    {
-      "tokenId": "1997",
-      "eventTimestamp": "2022-10-23T20:00:11",
-      "totalPrice": "258900000000000000",
-      "paymentToken": "ETH"
-    },
-    {
-      "tokenId": "1997",
-      "eventTimestamp": "2022-10-23T03:55:35",
-      "totalPrice": "235100000000000000",
-      "paymentToken": "WETH"
-    }
-  ],
-  "4779": [
-    {
-      "tokenId": "4779",
-      "eventTimestamp": "2022-10-23T04:56:59",
-      "totalPrice": "235000000000000000",
-      "paymentToken": "WETH"
     }
   ]
 }

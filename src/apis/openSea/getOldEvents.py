@@ -1,5 +1,5 @@
 import time
-from apis.openSea.eventsHandler import eventsHandler
+from apis.openSea.eventsService import eventsService
 from helpers.getEnvVariables import getEnvVariables
 
 envVariables = getEnvVariables()
@@ -18,14 +18,14 @@ def getOldEvents(contractAddress):
         "X-API-KEY": envVariables['OPENSEA_API_KEY']
     }
 
-    response = eventsHandler(headers, url)
+    response = eventsService(headers, url)
     events = mergeBuckets({}, response["assetEvents"])
 
     while response["next"] is not None:
         time.sleep(0.8)
 
         url = urlBuilder(contractAddress, occuredAfter, response["next"])
-        response = eventsHandler(headers, url)
+        response = eventsService(headers, url)
         events = mergeBuckets(events, response["assetEvents"])
         
     return events

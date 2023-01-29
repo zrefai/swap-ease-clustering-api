@@ -22,20 +22,18 @@ def generateClustersHandler(contractAddress):
     clusters = {}
 
     # Create array for each cluster
-    for index, token_id in enumerate(dataFrame.index):
+    for index, tokenId in enumerate(dataFrame.index):
         # Grab the lable from the clusters array
         label = labels[index]
-        token_information = {
-            "tokenId": token_id, 
-            "rank": index + 1,
-        }
 
         # Check if label is in dictionary
         if label in clusters.keys():
-            clusters[label.item()].append(token_information)
+            # Key - value pair (tokenId - rank)
+            clusters[label.item()][tokenId] = index + 1
         else:
-            clusters[label.item()] = [token_information]
-    
+            clusters[label.item()] = {}
+            clusters[label.item()][tokenId] = index + 1
+        
     events = getOldEvents(contractAddress)
 
     clustersAndEvents = addEventsToClusters(events, clusters)

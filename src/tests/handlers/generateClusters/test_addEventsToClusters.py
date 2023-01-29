@@ -10,8 +10,9 @@ class TestAddEventsToClusters(unittest.TestCase):
         self.assertEqual(len(self.clustersAndEvents.keys()), 4)
 
     def test_returns_cluster_with_all_nfts_from_clusters(self):
+        mockClusterValues = list(mockClusters["0"].keys())
         for index, nft in enumerate(self.clustersAndEvents["0"]["nfts"]):
-            self.assertEqual(nft, mockClusters["0"][index])
+            self.assertEqual(nft, mockClusterValues[index])
 
     def test_returns_cluster_0_with_correct_events(self):
         mockEventsResult0 = [
@@ -117,82 +118,30 @@ class TestAddEventsToClusters(unittest.TestCase):
 
 
 mockClusters = {
-    "0": [
-        {
-            "rank": 5,
-            "tokenId": "5"
-        },
-        {
-            "rank": 6,
-            "tokenId": "6"
-        },
-        {
-            "rank": 7,
-            "tokenId": "7"
-        },
-        {
-            "rank": 8,
-            "tokenId": "8"
-        },
-        {
-            "rank": 9,
-            "tokenId": "9"
-        },
-    ],
-    "1": [
-        {
-            "rank": 1,
-            "tokenId": "1"
-        },
-        {
-            "rank": 2,
-            "tokenId": "2"
-        },
-        {
-            "rank": 3,
-            "tokenId": "3"
-        },
-        {
-            "rank": 4,
-            "tokenId": "4"
-        }
-    ],
-    "2": [
-        {
-            "rank": 10,
-            "tokenId": "8597"
-        },
-        {
-            "rank": 12,
-            "tokenId": "6273"
-        },
-        {
-            "rank": 13,
-            "tokenId": "6242"
-        },
-        {
-            "rank": 14,
-            "tokenId": "1922"
-        }
-    ],
-    "3": [
-        {
-            "rank": 111,
-            "tokenId": "8597"
-        },
-        {
-            "rank": 211,
-            "tokenId": "6273"
-        },
-        {
-            "rank": 311,
-            "tokenId": "6242"
-        },
-        {
-            "rank": 411,
-            "tokenId": "1922"
-        }
-    ],
+    "0": {
+        "5": 5,
+        "6": 3,
+        "7": 2,
+        "8": 1
+    },
+    "1": {
+        "1": 6,
+        "2": 7,
+        "3": 8,
+        "4": 9
+    },
+    "2": {
+        "1": 6,
+        "2": 7,
+        "3": 8,
+        "4": 9
+    },
+    "3": {
+        "1": 6,
+        "2": 7,
+        "3": 8,
+        "4": 9
+    }
 }
 
 mockEvents = {

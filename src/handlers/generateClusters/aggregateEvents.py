@@ -17,13 +17,13 @@ def aggregateEvents(clustersAndEvents):
         
         rankAverage = 0
 
-        for nft in clustersAndEvents[clusterNumber]["nfts"]:
-            rankAverage += int(nft["tokenId"])
+        for rank in clustersAndEvents[clusterNumber]["nfts"].values():
+            rankAverage += rank
 
         clustersAndEvents[clusterNumber]["totalVolume"] = totalVolume
         clustersAndEvents[clusterNumber]["highestSale"] = highestSale if highestSale != -1 else None
         clustersAndEvents[clusterNumber]["lowestSale"] = lowestSale if lowestSale != float('inf') else None
-        clustersAndEvents[clusterNumber]["rankAverage"] = rankAverage / len(clustersAndEvents[clusterNumber]["nfts"])
+        clustersAndEvents[clusterNumber]["rankAverage"] = rankAverage / len(clustersAndEvents[clusterNumber]["nfts"].keys())
         clustersAndEvents[clusterNumber]["totalSales"] = len(clustersAndEvents[clusterNumber]["events"])
     
     return list(clustersAndEvents.values())
