@@ -1,5 +1,5 @@
 from src.data.clusters import Clusters
-from apis.openSea.getOldEvents import getOldEvents
+from apis.openSea.eventsClass import getOldEvents
 from src.dataProcessing.clusteringAlgorithms.KMeans import getKMeanLabels
 from handlers.generateClusters.addEventsToClusters import addEventsToClusters
 from handlers.generateClusters.aggregateEvents import aggregateEvents

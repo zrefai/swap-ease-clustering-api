@@ -8,11 +8,11 @@ def addEventsToClusters(events, clusters):
             # If found, add events and nfts from cluster
             if tokenId in clusters[clusterNumber]:
                 if clusterNumber in clustersAndEvents:
-                    clustersAndEvents[clusterNumber]["events"].extend(events[tokenId])
+                    clustersAndEvents[clusterNumber]['events'].extend(events[tokenId])
                 else:
                     clustersAndEvents[clusterNumber] = {
-                        "nfts": clusters[clusterNumber],
-                        "events": events[tokenId]
+                        'nfts': clusters[clusterNumber],
+                        'events': events[tokenId]
                     }
                 break
 
@@ -20,8 +20,8 @@ def addEventsToClusters(events, clusters):
     for clusterNumber in clusters.keys():
         if clusterNumber not in clustersAndEvents:
             clustersAndEvents[clusterNumber] = {
-                        "nfts": clusters[clusterNumber],
-                        "events": []
+                        'nfts': clusters[clusterNumber],
+                        'events': []
                     }
 
     return clustersAndEvents

@@ -7,6 +7,6 @@ class Clusters():
         self.collection = db['clusters']
 
     def addClusters(self, contractAddress, clustersList):
-        newDocument = {"contractAddress": contractAddress, "clusters": clustersList}
+        newDocument = {'contractAddress': contractAddress, 'clusters': clustersList}
 
         return self.collection.insert_one(newDocument)
