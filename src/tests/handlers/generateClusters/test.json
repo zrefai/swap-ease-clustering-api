@@ -1,0 +1,102 @@
+[
+  {
+    "nfts": { "5000": 1, "5004": 5 },
+    "events": [
+      {
+        "tokenId": "5000",
+        "eventTimestamp": "2023-01-22T23:56:59",
+        "totalPrice": "391410000000000000",
+        "paymentToken": "WETH"
+      },
+      {
+        "tokenId": "5004",
+        "eventTimestamp": "2023-01-22T23:27:59",
+        "totalPrice": "600000000000000000",
+        "paymentToken": "WETH"
+      },
+      {
+        "tokenId": "5004",
+        "eventTimestamp": "2023-01-04T20:00:23",
+        "totalPrice": "700000000000000000",
+        "paymentToken": "ETH"
+      }
+    ],
+    "totalVolume": 1.6914099999999999,
+    "highestSale": 0.7,
+    "lowestSale": 0.39141,
+    "rankAverage": 3.0,
+    "totalSales": 3
+  },
+  {
+    "nfts": { "5001": 2, "5005": 6 },
+    "events": [
+      {
+        "tokenId": "5001",
+        "eventTimestamp": "2023-01-22T23:32:35",
+        "totalPrice": "502500000000000000",
+        "paymentToken": "ETH"
+      },
+      {
+        "tokenId": "5005",
+        "eventTimestamp": "2023-01-22T23:27:59",
+        "totalPrice": "600000000000000000",
+        "paymentToken": "WETH"
+      },
+      {
+        "tokenId": "5005",
+        "eventTimestamp": "2023-01-04T20:00:23",
+        "totalPrice": "700000000000000000",
+        "paymentToken": "ETH"
+      }
+    ],
+    "totalVolume": 1.8025,
+    "highestSale": 0.7,
+    "lowestSale": 0.5025,
+    "rankAverage": 4.0,
+    "totalSales": 3
+  },
+  {
+    "nfts": { "5002": 3, "5007": 7 },
+    "events": [
+      {
+        "tokenId": "5002",
+        "eventTimestamp": "2023-01-22T23:27:59",
+        "totalPrice": "600000000000000000",
+        "paymentToken": "WETH"
+      },
+      {
+        "tokenId": "5002",
+        "eventTimestamp": "2023-01-04T20:00:23",
+        "totalPrice": "700000000000000000",
+        "paymentToken": "ETH"
+      }
+    ],
+    "totalVolume": 1.2999999999999998,
+    "highestSale": 0.7,
+    "lowestSale": 0.6,
+    "rankAverage": 5.0,
+    "totalSales": 2
+  },
+  {
+    "nfts": { "5003": 4, "5008": 8 },
+    "events": [
+      {
+        "tokenId": "5003",
+        "eventTimestamp": "2023-01-22T23:27:59",
+        "totalPrice": "600000000000000000",
+        "paymentToken": "WETH"
+      },
+      {
+        "tokenId": "5003",
+        "eventTimestamp": "2023-01-04T20:00:23",
+        "totalPrice": "700000000000000000",
+        "paymentToken": "ETH"
+      }
+    ],
+    "totalVolume": 1.2999999999999998,
+    "highestSale": 0.7,
+    "lowestSale": 0.6,
+    "rankAverage": 6.0,
+    "totalSales": 2
+  }
+]

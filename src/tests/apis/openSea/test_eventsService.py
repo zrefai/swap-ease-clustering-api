@@ -9,51 +9,69 @@ mockHeaders = {}
 class TestEventsService(unittest.TestCase):
     @classmethod
     def setUpClass(self):
-        self.patch1 = patch('requests.get')
-        self.mock_get = self.patch1.start()
+      self.patch1 = patch('requests.get')
+      self.mock_get = self.patch1.start()
 
-        self.eventsService = EventsService()
+      self.eventsService = EventsService()
 
-        self.addClassCleanup(self.patch1.stop)
+      self.addClassCleanup(self.patch1.stop)
 
     @classmethod
     def tearDownClass(self):
-        self.patch1.stop()
-        self.mock_get.dispose() # TODO: check if this is needed
+      self.patch1.stop()
 
     def setUp(self):
-        mock_response = MagicMock(spec=requests.Response)
-        mock_response.status_code = 200
-        mock_response.ok = True
-        mock_response.json.return_value = mockData
+      mock_response = MagicMock(spec=requests.Response)
+      mock_response.status_code = 200
+      mock_response.ok = True
+      mock_response.json.return_value = mockData1
 
-        self.mock_get.return_value = mock_response
+      self.mock_get.return_value = mock_response
     
     def setUp2(self):
-        mock_response = MagicMock(spec=requests.Response)
-        mock_response.status_code = 500
-        mock_response.ok = False
-        mock_response.json.return_value = {}
+      mock_response = MagicMock(spec=requests.Response)
+      mock_response.status_code = 500
+      mock_response.ok = False
+      mock_response.json.return_value = {}
 
-        self.mock_get.return_value = mock_response
+      self.mock_get.return_value = mock_response
 
-    def test_getReturnsSuccess_MapsEventsCorrectly(self):
-        self.setUp()
-        result = self.eventsService.getEvents(mockUrl, mockHeaders)
+    def setUp3(self):
+      mock_response = MagicMock(spec=requests.Response)
+      mock_response.status_code = 200
+      mock_response.ok = True
+      mock_response.json.return_value = mockData2
 
-        self.assertEqual(len(result['assetEvents']), 2)
+      self.mock_get.return_value = mock_response
+
+    def test_getRequestReturnsSuccess_MapsEventsCorrectly(self):
+      self.setUp()
+      result = self.eventsService.getEvents(mockUrl, mockHeaders)
+
+      self.assertEqual(len(result['assetEvents']), 2)
     
-    def test_getReturnsError_ReturnsEmptyEvents(self):
-        self.setUp2()
-        result = self.eventsService.getEvents(mockUrl, mockHeaders)
+    def test_getRequestReturnsError_ReturnsEmptyEvents(self):
+      self.setUp2()
+      result = self.eventsService.getEvents(mockUrl, mockHeaders)
 
-        self.assertEqual(result['next'], None)
-        self.assertEqual(len(result['assetEvents']), 0)
+      self.assertEqual(result['next'], None)
+      self.assertEqual(len(result['assetEvents']), 0)
+    
+    def test_mapsEventsCorrectly_whenAssetEventsIsEmpty(self):
+      self.setUp3()
+      result = self.eventsService.getEvents(mockUrl, mockHeaders)
+
+      self.assertEqual(result['next'], None)
+      self.assertEqual(len(result['assetEvents']), 0)
 
     # TODO: Add a test to ensure properties are being mapped properly
 
+mockData2 = {
+  'next': None,
+  'asset_events': []
+}
 
-mockData = {
+mockData1 = {
   'next': 'LWV2ZW50X3RpbWVzdGFtcD0yMDIzLTAxLTA4KzEwJTNBNDclM0E0NyYtZXZlbnRfdHlwZT1zdWNjZXNzZnVsJi1waz05MTYzNDE5ODA3',
   'previous': 'cj0xJi1ldmVudF90aW1lc3RhbXA9MjAyMy0wMS0wOSswNSUzQTUwJTNBMTEmLWV2ZW50X3R5cGU9c3VjY2Vzc2Z1bCYtcGs9OTE3OTYwMDM2Mw==',
   'asset_events': [

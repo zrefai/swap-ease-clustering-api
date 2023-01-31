@@ -1,4 +1,4 @@
-from mongoDb import get_db
+from src.mongoDb import get_db
 
 class SortedRankings():
     def __init__(self):

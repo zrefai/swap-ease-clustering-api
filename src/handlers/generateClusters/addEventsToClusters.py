@@ -1,5 +1,5 @@
 def addEventsToClusters(events, clusters):
-    clustersAndEvents = {}
+    eventsAndClusters = {}
 
     # Add associated events to respective clusters
     for tokenId in events.keys():
@@ -7,10 +7,10 @@ def addEventsToClusters(events, clusters):
 
             # If found, add events and nfts from cluster
             if tokenId in clusters[clusterNumber]:
-                if clusterNumber in clustersAndEvents:
-                    clustersAndEvents[clusterNumber]['events'].extend(events[tokenId])
+                if clusterNumber in eventsAndClusters:
+                    eventsAndClusters[clusterNumber]['events'].extend(events[tokenId])
                 else:
-                    clustersAndEvents[clusterNumber] = {
+                    eventsAndClusters[clusterNumber] = {
                         'nfts': clusters[clusterNumber],
                         'events': events[tokenId]
                     }
@@ -18,10 +18,10 @@ def addEventsToClusters(events, clusters):
 
     # Add remaining clusters that didnt have events
     for clusterNumber in clusters.keys():
-        if clusterNumber not in clustersAndEvents:
-            clustersAndEvents[clusterNumber] = {
+        if clusterNumber not in eventsAndClusters:
+            eventsAndClusters[clusterNumber] = {
                         'nfts': clusters[clusterNumber],
                         'events': []
                     }
 
-    return clustersAndEvents
+    return eventsAndClusters

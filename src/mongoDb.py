@@ -1,5 +1,5 @@
 import pymongo
-from helpers.getEnvVariables import getEnvVariables
+from src.helpers.getEnvVariables import getEnvVariables
 
 envVariables = getEnvVariables()
 
