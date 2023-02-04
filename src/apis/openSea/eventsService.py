@@ -1,7 +1,11 @@
 import requests
+import datetime
+from src.helpers.dateHelpers import getDateObject
 
+datetime.datetime.ut
 class EventsService:    
     def getEvents(self, url, headers):
+        # TODO: Do more error handling here
         response = requests.get(url, headers=headers)
         
         if response.ok:
@@ -16,7 +20,7 @@ class EventsService:
         def getEvent(e):
             return {
                 'tokenId': e['asset']['token_id'],
-                'eventTimestamp': e['event_timestamp'],
+                'eventTimestamp': getDateObject( e['event_timestamp']),
                 'totalPrice': e['total_price'],
                 'paymentToken': e['payment_token']['symbol']
             }

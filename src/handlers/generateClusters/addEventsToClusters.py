@@ -1,3 +1,4 @@
+# TODO: Can probably move this into generateClustersClass
 def addEventsToClusters(events, clusters):
     eventsAndClusters = {}
 
@@ -23,5 +24,7 @@ def addEventsToClusters(events, clusters):
                         'nfts': clusters[clusterNumber],
                         'events': []
                     }
+
+    # TODO: sort by timestamp here
 
     return eventsAndClusters

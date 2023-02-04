@@ -34,13 +34,13 @@ class TestEventsClass(unittest.TestCase):
     
     def test_returnsCorrectNumberOfKeys_whenEventsAreSuccessful(self):
         self.setUp()
-        result = self.eventsClass.getOldEvents(self.contractAddress)
+        result = self.eventsClass.getEvents(self.contractAddress)
 
         self.assertEqual(len(result.keys()), 3)
     
     def test_returnsCorrectNumberOfEvents_whenEventsAreSuccessfullyMerged(self):
         self.setUp()
-        result = self.eventsClass.getOldEvents(self.contractAddress)
+        result = self.eventsClass.getEvents(self.contractAddress)
 
         self.assertEqual(len(result['1']), 3)
         self.assertEqual(len(result['2']), 1)
@@ -68,7 +68,7 @@ class TestEventsClass(unittest.TestCase):
                 'paymentToken': 'ETH'
             },
         ]
-        result = self.eventsClass.getOldEvents(self.contractAddress)
+        result = self.eventsClass.getEvents(self.contractAddress)
 
         for index, event in enumerate(result["1"]):
             self.assertEqual(event, expectedEvents[index])
@@ -84,6 +84,8 @@ class TestEventsClass(unittest.TestCase):
         result = self.eventsClass.urlBuilder(self.contractAddress, 'unixTime', 'cursor')
 
         self.assertEqual(result, expectedResult)
+    
+    # TODO: add tests for latestTimestamp logic
 
 mockEvents1 = {
     'next': 'cursor1',

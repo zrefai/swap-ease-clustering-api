@@ -16,7 +16,12 @@ def generateClusters():
     if request.method == 'POST':
         generateClusters = GenerateClustersClass()
         return generateClusters.generateClusters(request.form['contractAddress'])
+    return 'Invalid method', 405
 
+@app.route('/updateClusters', methods=['PATCH'])
+def updateClusters():
+    if request.method == 'PATCH':
+        pass
     return 'Invalid method', 405
 
 if __name__ == '__main__':

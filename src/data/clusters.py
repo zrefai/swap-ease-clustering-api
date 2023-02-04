@@ -18,3 +18,16 @@ class Clusters():
         }
 
         return self.collection.insert_one(newDocument)
+    
+    def getClusters(self, contractAddress):
+        try:
+            document = self.collection.find_one({'contractAddress': contractAddress})
+
+            if document is None:
+                raise TypeError('Clusters document for {} was not found'.format(contractAddress))
+
+            return document
+        except TypeError as e:
+            print(e)
+
+            raise Exception('Cannot continue without Clusters data') from e

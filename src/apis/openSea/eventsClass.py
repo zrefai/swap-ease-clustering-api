@@ -1,4 +1,5 @@
 import time
+from src.helpers.dateHelpers import getDateBoundary
 from src.apis.openSea.eventsService import EventsService
 from src.helpers.getEnvVariables import getEnvVariables
 
@@ -9,26 +10,29 @@ class EventsClass:
         self.eventsService = EventsService()
         self.dateRange = 90
 
-    def getOldEvents(self, contractAddress):
-        currentTime = time.time()
-    
+    def getEvents(self, contractAddress, latestEventTimestamp = None):
+        dateBoundary = getDateBoundary(self.dateRange)
+
         # Unix epoch time for events that occurred after this calculated time
-        occuredAfter = currentTime - (86400*self.dateRange)
+        # Check if latestEventTimestamp is past 90 day range from now
+        if latestEventTimestamp is not None and latestEventTimestamp > dateBoundary:
+            occurredAfter = latestEventTimestamp.timestamp()
+        else:
+            occurredAfter = dateBoundary.timestamp()
     
-        url = self.urlBuilder(contractAddress, occuredAfter)
+        url = self.urlBuilder(contractAddress, occurredAfter)
         headers = {
             'accept': 'application/json',
             'X-API-KEY': self.envVariables['OPENSEA_API_KEY']
         }
 
         response = self.eventsService.getEvents(url, headers)
-
         events = self.__mergeBuckets({}, response['assetEvents'])
 
         while response['next'] is not None:
             time.sleep(0.8)
 
-            url = self.urlBuilder(contractAddress, occuredAfter, response['next'])
+            url = self.urlBuilder(contractAddress, occurredAfter, response['next'])
             response = self.eventsService.getEvents(url, headers)
             events = self.__mergeBuckets(events, response['assetEvents'])
         

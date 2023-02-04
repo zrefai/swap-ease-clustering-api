@@ -6,7 +6,7 @@ def formatRankedData(rankedData):
     # Get the max number of occurances of a trait across all NFTs
     for column in rankedData['columns']:
         for distribution in rankedData['distributions']:
-            result = [x for x in distribution['totalScoreDistribution'] if x['trait_type'] == column]
+            result = [x for x in distribution['totalScoreDistribution'] if x['traitType'] == column]
         
             if column in columnsCount:
                 columnsCount[column] = max(columnsCount[column], len(result))
@@ -32,7 +32,7 @@ def formatRankedData(rankedData):
 
         # Format data per row
         for key in columnsCount:
-            result = [x['score'] for x in rankedData['distributions'][index]['totalScoreDistribution'] if x['trait_type'] == key]
+            result = [x['score'] for x in rankedData['distributions'][index]['totalScoreDistribution'] if x['traitType'] == key]
 
             # Fill remaining columns of a trait type with 0s if no other data is available
             while len(result) < columnsCount[key]:

@@ -13,23 +13,26 @@ class GenerateClustersClass:
         self.eventsClass = EventsClass()
     
     def generateClusters(self, contractAddress):
-        # TODO: check if clusters doc was already created
-        # TODO: add more error handling
-
-        # Get distributions data
-        rankedData = self.sortedRankings.getSortedRankings(contractAddress)
+        try:
+            rankedData = self.sortedRankings.getSortedRankings(contractAddress)
         
-        clusters = self.transformRankedDataToClusters(rankedData)
-        events = self.eventsClass.getOldEvents(contractAddress)
-        eventsAndClusters = addEventsToClusters(events, clusters)
+            clusters = self.transformRankedDataToClusters(rankedData)
+            events = self.eventsClass.getEvents(contractAddress)
+            eventsAndClusters = addEventsToClusters(events, clusters)
 
-        result = aggregateEvents(eventsAndClusters)
+            result = aggregateEvents(eventsAndClusters)
 
-        docId = self.clusters.addClusters(contractAddress, result)
+            docId = self.clusters.addClusters(contractAddress, result)
 
-        if docId:
-            return f'Success', 200
-        else:
+            if docId.acknowledged:
+                return f'Success', 200
+            else:
+                return f'Failure', 500
+        except:
+            print('Could not generate clusters for {}'.format(contractAddress))
+            # if e.__cause__:
+            #     print('Cause:', e.__cause__)
+            
             return f'Failure', 500
 
     def transformRankedDataToClusters(self, rankedData):

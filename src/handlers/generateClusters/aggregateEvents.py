@@ -1,5 +1,8 @@
+# TODO: Change so that it takes a list
 def aggregateEvents(clustersAndEvents):
     # Aggregate transaction data
+
+    # TODO: maybe aggregate data as a collection?
     for clusterNumber in clustersAndEvents.keys():
         totalVolume = 0
         highestSale = -1

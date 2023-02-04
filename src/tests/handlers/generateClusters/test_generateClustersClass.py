@@ -3,7 +3,8 @@ import unittest
 from unittest.mock import MagicMock, Mock, patch
 from src.handlers.generateClusters.generateClustersClass import GenerateClustersClass
 
-class TestGenerateClusters(unittest.TestCase):
+# TODO: check when getEvents mock is not necessary to return anything? Test did not fail when changed from getOldEvents to getEvents
+class TestGenerateClustersClass(unittest.TestCase):
 
     # @patch('src.handlers.generateClusters.generateClustersClass.SortedRankings')
     # @patch('src.handlers.generateClusters.generateClustersClass.Clusters')
@@ -18,11 +19,13 @@ class TestGenerateClusters(unittest.TestCase):
         sortedRankingsMock = MagicMock()
         sortedRankingsMock.getSortedRankings.return_value = mockSortedRankingsData
 
+        docIdMock = MagicMock()
+        docIdMock.acknowledged = True
         clustersMock = MagicMock()
-        clustersMock.addClusters.return_value = True
+        clustersMock.addClusters.return_value = docIdMock
 
         eventsClassMock = MagicMock()
-        eventsClassMock.getOldEvents.return_value = mockOldEventsData
+        eventsClassMock.getEvents.return_value = mockOldEventsData
 
         self.generateClustersClass = GenerateClustersClass()
         self.generateClustersClass.sortedRankings = sortedRankingsMock
@@ -108,7 +111,7 @@ class TestGenerateClusters(unittest.TestCase):
 
     def test_generatesClusterDataSuccessfully_whenEventsDataIsEmpty(self):
         eventsClassMock = MagicMock()
-        eventsClassMock.getOldEvents.return_value = {}
+        eventsClassMock.getEvents.return_value = {}
 
         self.generateClustersClass.eventsClass = eventsClassMock
 
@@ -122,15 +125,23 @@ class TestGenerateClusters(unittest.TestCase):
             self.assertEqual(len(cluster['events']), 0)
 
     def test_returnsFailure_whenAddClustersFailsToAddClusters(self):
+        docIdMock = MagicMock()
+        docIdMock.acknowledged = False
         clustersMock = MagicMock()
-        clustersMock.addClusters.return_value = None
+        clustersMock.addClusters.return_value = docIdMock
         
         self.generateClustersClass.clusters = clustersMock
 
         result = self.generateClustersClass.generateClusters(self.contractAddress)
 
         self.assertEqual(result, ('Failure', 500))
+    
+    def test_returnsFailure_whenSortedRankingsRaisesRuntimeError(self):
+        self.generateClustersClass.sortedRankings.getSortedRankings.side_effect = RuntimeError()
 
+        result = self.generateClustersClass.generateClusters(self.contractAddress)
+
+        self.assertEqual(result, ('Failure', 500))
 
 
 mockSortedRankingsData = {
@@ -147,23 +158,23 @@ mockSortedRankingsData = {
             'tokenId': '5000',
             'totalScoreDistribution': [
                 {
-                    'trait_type': 'Background',
+                    'traitType': 'Background',
                     'score': 5555.0
                 },
                 {
-                    'trait_type': 'Fur',
+                    'traitType': 'Fur',
                     'score': 5555.0
                 },
                 {
-                    'trait_type': 'Clothing',
+                    'traitType': 'Clothing',
                     'score': 5555.0
                 },
                 {
-                    'trait_type': 'Eye',
+                    'traitType': 'Eye',
                     'score': 5555.0
                 },
                 {
-                    'trait_type': 'trait_count',
+                    'traitType': 'trait_count',
                     'score': 10.0
                 },
             ]
@@ -172,23 +183,23 @@ mockSortedRankingsData = {
             'tokenId': '5001',
             'totalScoreDistribution': [
                 {
-                    'trait_type': 'Beard',
+                    'traitType': 'Beard',
                     'score': 5555.0
                 },
                 {
-                    'trait_type': 'Fur',
+                    'traitType': 'Fur',
                     'score': 5555.0
                 },
                 {
-                    'trait_type': 'Clothing',
+                    'traitType': 'Clothing',
                     'score': 10.0
                 },
                 {
-                    'trait_type': 'Eye',
+                    'traitType': 'Eye',
                     'score': 5555.0
                 },
                 {
-                    'trait_type': 'trait_count',
+                    'traitType': 'trait_count',
                     'score': 10.0
                 },
             ]
@@ -197,23 +208,23 @@ mockSortedRankingsData = {
             'tokenId': '5002',
             'totalScoreDistribution': [
                 {
-                    'trait_type': 'Background',
+                    'traitType': 'Background',
                     'score': 10.0
                 },
                 {
-                    'trait_type': 'Fur',
+                    'traitType': 'Fur',
                     'score': 5555.0
                 },
                 {
-                    'trait_type': 'Clothing',
+                    'traitType': 'Clothing',
                     'score': 20.0
                 },
                 {
-                    'trait_type': 'Eye',
+                    'traitType': 'Eye',
                     'score': 30.0
                 },
                 {
-                    'trait_type': 'trait_count',
+                    'traitType': 'trait_count',
                     'score': 10.0
                 },
             ]
@@ -222,23 +233,23 @@ mockSortedRankingsData = {
             'tokenId': '5003',
             'totalScoreDistribution': [
                 {
-                    'trait_type': 'Beard',
+                    'traitType': 'Beard',
                     'score': 10.0
                 },
                 {
-                    'trait_type': 'Fur',
+                    'traitType': 'Fur',
                     'score': 1.0
                 },
                 {
-                    'trait_type': 'Clothing',
+                    'traitType': 'Clothing',
                     'score': 20.0
                 },
                 {
-                    'trait_type': 'Eye',
+                    'traitType': 'Eye',
                     'score': 400.0
                 },
                 {
-                    'trait_type': 'trait_count',
+                    'traitType': 'trait_count',
                     'score': 100.0
                 },
             ]
