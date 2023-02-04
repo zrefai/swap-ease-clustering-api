@@ -1,8 +1,6 @@
 import requests
-import datetime
 from src.helpers.dateHelpers import getDateObject
 
-datetime.datetime.ut
 class EventsService:    
     def getEvents(self, url, headers):
         # TODO: Do more error handling here

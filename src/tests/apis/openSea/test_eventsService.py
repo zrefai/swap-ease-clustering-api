@@ -1,6 +1,7 @@
 import requests
 import unittest
 from unittest.mock import patch, MagicMock
+from src.helpers.dateHelpers import getDateObject
 from src.apis.openSea.eventsService import EventsService
 
 mockUrl = 'mockUrl'
@@ -64,7 +65,14 @@ class TestEventsService(unittest.TestCase):
       self.assertEqual(result['next'], None)
       self.assertEqual(len(result['assetEvents']), 0)
 
-    # TODO: Add a test to ensure properties are being mapped properly
+    def test_mapsEventsCorrectly_propertiesAreAssignedCorrectly(self):
+      self.setUp()
+      result = self.eventsService.getEvents(mockUrl, mockHeaders)
+
+      self.assertEqual(result['assetEvents'][0]['tokenId'], '38')
+      self.assertEqual(result['assetEvents'][0]['eventTimestamp'], getDateObject('2023-01-09T05:50:11'))
+      self.assertEqual(result['assetEvents'][0]['totalPrice'], '536800000000000000')
+      self.assertEqual(result['assetEvents'][0]['paymentToken'], 'ETH')
 
 mockData2 = {
   'next': None,
