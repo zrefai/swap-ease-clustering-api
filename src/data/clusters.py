@@ -7,14 +7,14 @@ class Clusters():
     
         self.collection = db['clusters']
 
-    def addClusters(self, contractAddress, clustersList):
+    def addClusters(self, contractAddress, clustersObject):
         currentTime = time.time()
 
         newDocument = {
             'contractAddress': contractAddress, 
             'createdAt': currentTime, 
             'lastUpdated': currentTime, 
-            'clusters': clustersList
+            **clustersObject
         }
 
         return self.collection.insert_one(newDocument)

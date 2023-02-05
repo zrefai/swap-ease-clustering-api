@@ -6,19 +6,25 @@ class TestAggregateEvents(unittest.TestCase):
     def setUpClass(self):
         self.result = aggregateEvents(mockClustersAndEvents)
     
-    def test_returns_expected_aggregates_from_valid_events(self):
-        self.assertEqual(self.result[0]['totalVolume'], 3.4494199)
-        self.assertEqual(self.result[0]['highestSale'], 0.65)
-        self.assertEqual(self.result[0]['lowestSale'], 0.3)
-        self.assertEqual(self.result[0]['rankAverage'], 7.5)
-        self.assertEqual(self.result[0]['totalSales'], 8)
+    def test_returnsExpectedAggregatesForCollection_fromValidEvents(self):
+        self.assertEqual(self.result['totalVolume'],  5.4540199000000005)
+        self.assertEqual(self.result['highestSale'], 0.65)
+        self.assertEqual(self.result['lowestSale'], 0.2201)
+        self.assertEqual(self.result['totalSales'], 14)
+
+    def test_returnsExpectedAggregatesFromValidEvents(self):
+        self.assertEqual(self.result['clusters'][0]['totalVolume'], 3.4494199)
+        self.assertEqual(self.result['clusters'][0]['highestSale'], 0.65)
+        self.assertEqual(self.result['clusters'][0]['lowestSale'], 0.3)
+        self.assertEqual(self.result['clusters'][0]['rankAverage'], 7.5)
+        self.assertEqual(self.result['clusters'][0]['totalSales'], 8)
     
-    def test_returns_expected_aggregates_from_empty_events(self):
-        self.assertEqual(self.result[2]['totalVolume'], 0)
-        self.assertEqual(self.result[2]['highestSale'], None)
-        self.assertEqual(self.result[2]['lowestSale'], None)
-        self.assertEqual(self.result[2]['rankAverage'], 11.5)
-        self.assertEqual(self.result[2]['totalSales'], 0)
+    def test_returnsExpectedAggregatesFromEmptyEvents(self):
+        self.assertEqual(self.result['clusters'][2]['totalVolume'], 0)
+        self.assertEqual(self.result['clusters'][2]['highestSale'], None)
+        self.assertEqual(self.result['clusters'][2]['lowestSale'], None)
+        self.assertEqual(self.result['clusters'][2]['rankAverage'], 11.5)
+        self.assertEqual(self.result['clusters'][2]['totalSales'], 0)
 
 mockClustersAndEvents = [
   {

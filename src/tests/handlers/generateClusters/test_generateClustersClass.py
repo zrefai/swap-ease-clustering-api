@@ -184,12 +184,12 @@ class TestGenerateClustersClass(unittest.TestCase):
         ]
 
         self.assertEqual(result, ('Success', 200))
-        self.assertEqual(len(generatedClusters), 4)
+        self.assertEqual(len(generatedClusters['clusters']), 4)
 
-        for index, tokenId in enumerate(generatedClusters[0]['nfts'].keys()):
+        for index, tokenId in enumerate(generatedClusters['clusters'][0]['nfts'].keys()):
             self.assertEqual(tokenId, expectedNfts[index])
         
-        for index, event in enumerate(generatedClusters[0]['events']):
+        for index, event in enumerate(generatedClusters['clusters'][0]['events']):
             self.assertEqual(event, expectedEvents[index])
  
     def test_generatesClusterDataSuccessfully_whenEventsDataIsEmpty(self):
@@ -204,7 +204,7 @@ class TestGenerateClustersClass(unittest.TestCase):
 
         self.assertEqual(result, ('Success', 200))
 
-        for cluster in generatedClusters:
+        for cluster in generatedClusters['clusters']:
             self.assertEqual(len(cluster['events']), 0)
 
     def test_returnsFailure_whenAddClustersFailsToAddClusters(self):

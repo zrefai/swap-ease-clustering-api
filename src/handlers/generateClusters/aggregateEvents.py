@@ -1,8 +1,11 @@
-# TODO: Change so that it takes a list
 def aggregateEvents(clustersAndEvents):
-    # Aggregate transaction data
+    # Aggregate for whole collection
+    collectionTotalVolume = 0
+    collectionHighestSale = -1
+    collectionLowestSale = float('inf')
+    collectionTotalSales = 0
 
-    # TODO: maybe aggregate data as a collection?
+    # Aggregate transaction data
     for cluster in clustersAndEvents:
         totalVolume = 0
         highestSale = -1
@@ -14,9 +17,16 @@ def aggregateEvents(clustersAndEvents):
             if transaction['paymentToken'] == 'ETH' or transaction['paymentToken'] == 'WETH':
                  composedPrice = int(transaction['totalPrice']) / (10 ** 18)
 
+            collectionTotalVolume += composedPrice
             totalVolume += composedPrice
+
+            collectionHighestSale = max(collectionHighestSale, composedPrice)
             highestSale = max(highestSale, composedPrice)
+
+            collectionLowestSale = min(collectionLowestSale, composedPrice)
             lowestSale = min(lowestSale, composedPrice)
+
+            collectionTotalSales += 1
         
         rankAverage = 0
 
@@ -29,4 +39,10 @@ def aggregateEvents(clustersAndEvents):
         cluster['rankAverage'] = rankAverage / len(cluster['nfts'].keys())
         cluster['totalSales'] = len(cluster['events'])
     
-    return clustersAndEvents
+    return {
+        'totalVolume': collectionTotalVolume,
+        'highestSale': collectionHighestSale if collectionHighestSale != -1 else None,
+        'lowestSale': collectionLowestSale if collectionLowestSale != float('inf') else None,
+        'totalSales': collectionTotalSales,
+        'clusters': clustersAndEvents
+    }
