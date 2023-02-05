@@ -3,12 +3,12 @@ def aggregateEvents(clustersAndEvents):
     # Aggregate transaction data
 
     # TODO: maybe aggregate data as a collection?
-    for clusterNumber in clustersAndEvents.keys():
+    for cluster in clustersAndEvents:
         totalVolume = 0
         highestSale = -1
         lowestSale = float('inf')
 
-        for transaction in clustersAndEvents[clusterNumber]['events']:
+        for transaction in cluster['events']:
             composedPrice = 0 
 
             if transaction['paymentToken'] == 'ETH' or transaction['paymentToken'] == 'WETH':
@@ -20,13 +20,13 @@ def aggregateEvents(clustersAndEvents):
         
         rankAverage = 0
 
-        for rank in clustersAndEvents[clusterNumber]['nfts'].values():
+        for rank in cluster['nfts'].values():
             rankAverage += rank
 
-        clustersAndEvents[clusterNumber]['totalVolume'] = totalVolume
-        clustersAndEvents[clusterNumber]['highestSale'] = highestSale if highestSale != -1 else None
-        clustersAndEvents[clusterNumber]['lowestSale'] = lowestSale if lowestSale != float('inf') else None
-        clustersAndEvents[clusterNumber]['rankAverage'] = rankAverage / len(clustersAndEvents[clusterNumber]['nfts'].keys())
-        clustersAndEvents[clusterNumber]['totalSales'] = len(clustersAndEvents[clusterNumber]['events'])
+        cluster['totalVolume'] = totalVolume
+        cluster['highestSale'] = highestSale if highestSale != -1 else None
+        cluster['lowestSale'] = lowestSale if lowestSale != float('inf') else None
+        cluster['rankAverage'] = rankAverage / len(cluster['nfts'].keys())
+        cluster['totalSales'] = len(cluster['events'])
     
-    return list(clustersAndEvents.values())
+    return clustersAndEvents

@@ -48,7 +48,10 @@ python3 src/app.py
 To run the testing suite, run from src/tests
 
 ```
-python3 -m unittest
+python -m unittest
+
+# For verbose testing and suppressing print outs
+python -m unittest -v -b
 ```
 
 ## Trouble shooting

@@ -1,23 +1,14 @@
-
 import unittest
 from unittest.mock import MagicMock, Mock, patch
+from src.mocks.mockTransformedRankedData import mockTransformedRankedData
+from src.mocks.mockProcessedEvents import mockProcessedEvents
 from src.handlers.generateClusters.generateClustersClass import GenerateClustersClass
 
-# TODO: check when getEvents mock is not necessary to return anything? Test did not fail when changed from getOldEvents to getEvents
 class TestGenerateClustersClass(unittest.TestCase):
-
-    # @patch('src.handlers.generateClusters.generateClustersClass.SortedRankings')
-    # @patch('src.handlers.generateClusters.generateClustersClass.Clusters')
-    # @patch('src.handlers.generateClusters.generateClustersClass.EventsClass')
     @patch.object(GenerateClustersClass, '__init__', Mock(return_value=None))
     def setUp(self):
-        # This SHOULD work but doesnt :(
-        # patchSortedRankings().getSortedRankings.return_value = mockSortedRankings
-        # patchClusters().addClusters.return_value = True
-        # patchEventsClass().getOldEvents.return_value = mockOldEvents
-
         sortedRankingsMock = MagicMock()
-        sortedRankingsMock.getSortedRankings.return_value = mockSortedRankingsData
+        sortedRankingsMock.getSortedRankings.return_value = []
 
         docIdMock = MagicMock()
         docIdMock.acknowledged = True
@@ -25,13 +16,13 @@ class TestGenerateClustersClass(unittest.TestCase):
         clustersMock.addClusters.return_value = docIdMock
 
         eventsClassMock = MagicMock()
-        eventsClassMock.getEvents.return_value = mockOldEventsData
+        eventsClassMock.getEvents.return_value = mockProcessedEvents()
 
         self.generateClustersClass = GenerateClustersClass()
         self.generateClustersClass.sortedRankings = sortedRankingsMock
         self.generateClustersClass.clusters = clustersMock
         self.generateClustersClass.eventsClass = eventsClassMock
-        self.generateClustersClass.transformRankedDataToClusters = MagicMock(return_value=mockTransformRankedDataToClustersData)
+        self.generateClustersClass.transformRankedDataToClusters = MagicMock(return_value=mockTransformedRankedData())
 
         self.contractAddress = 'contractAddress'
     
@@ -39,8 +30,112 @@ class TestGenerateClustersClass(unittest.TestCase):
         self.generateClustersClass = None
         return super().tearDown()
     
+    def test_addEventsToClusters_returnsListWithCorrectNumberOfClusters(self):
+        result = self.generateClustersClass.addEventsToClusters(mockProcessedEvents(), mockTransformedRankedData())
+        
+        self.assertEqual(len(result), 4)
+
+    def test_addEventsToClusters_returnsClusterWithCorrectNfts(self):
+        mockClusterValues = list(mockTransformedRankedData()['0'].keys())
+
+        result = self.generateClustersClass.addEventsToClusters(mockProcessedEvents(), mockTransformedRankedData())
+        
+        # Nfts from cluster 1 appear first in the list because their events are added first
+        for index, nft in enumerate(result[0]['nfts']):
+            self.assertEqual(nft, mockClusterValues[index])
+
+    def test_addEventsToClusters_returnsCorrectEventsForFirstValue(self):
+        mockEventsResult0 = [
+            {
+                'eventTimestamp': '2022-12-07T21:13:47',
+                'paymentToken': 'ETH',
+                'tokenId': '5000',
+                'totalPrice': '397000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-12-01T07:40:35',
+                'paymentToken': 'ETH',
+                'tokenId': '5003',
+                'totalPrice': '379800000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-30T11:08:59',
+                'paymentToken': 'WETH',
+                'tokenId': '5003',
+                'totalPrice': '360400000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-22T14:34:23',
+                'paymentToken': 'ETH',
+                'tokenId': '5004',
+                'totalPrice': '365000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-16T19:35:47',
+                'paymentToken': 'ETH',
+                'tokenId': '5004',
+                'totalPrice': '265990000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-16T00:43:11',
+                'paymentToken': 'WETH',
+                'tokenId': '5004',
+                'totalPrice': '220100000000000000'
+            }
+        ]
+
+        result = self.generateClustersClass.addEventsToClusters(mockProcessedEvents(), mockTransformedRankedData())
+
+        for index, transaction in enumerate(result[0]['events']):
+            self.assertEqual(transaction, mockEventsResult0[index])
+    
+    def test_addEventsToClusters_returnsCorrectEventsForSecondValue(self):
+        mockEventsResult1 = [
+            {
+                "eventTimestamp": "2023-01-06T18:56:35",
+                "paymentToken": "ETH",
+                "tokenId": "5001",
+                "totalPrice": "650000000000000000"
+            },
+            {
+                "eventTimestamp": "2022-12-05T20:27:11",
+                "paymentToken": "ETH",
+                "tokenId": "5005",
+                "totalPrice": "449000000000000000"
+            },
+            {
+                "eventTimestamp": "2022-12-02T23:25:35",
+                "paymentToken": "ETH",
+                "tokenId": "5005",
+                "totalPrice": "372500000000000000"
+            },
+            {
+                "eventTimestamp": "2022-12-02T21:07:59",
+                "paymentToken": "WETH",
+                "tokenId": "5005",
+                "totalPrice": "332010000000000000"
+            },
+            {
+                "eventTimestamp": "2022-11-17T08:09:11",
+                "paymentToken": "WETH",
+                "tokenId": "5001",
+                "totalPrice": "300000000000000000"
+            }
+        ]
+
+        result = self.generateClustersClass.addEventsToClusters(mockProcessedEvents(), mockTransformedRankedData())
+
+        for index, transaction in enumerate(result[1]['events']):
+            self.assertEqual(transaction, mockEventsResult1[index])
+
+    def test_returnsEmptyEventsForClusters_whenTheyHaveNoEvents(self):
+        result = self.generateClustersClass.addEventsToClusters(mockProcessedEvents(), mockTransformedRankedData())
+
+        self.assertEqual(len(result[3]['events']), 0)
+
     def test_returnsSuccessResult_whenAllMocksReturnSuccessfully(self):
         result = self.generateClustersClass.generateClusters(self.contractAddress)
+
         self.assertEqual(result, ('Success', 200))
     
     def test_generatesClusterDataSuccessfullyForCluster1_whenAllMocksReturnSuccessfully(self):
@@ -48,25 +143,43 @@ class TestGenerateClustersClass(unittest.TestCase):
 
         generatedClusters = self.generateClustersClass.clusters.addClusters.call_args[0][1]
 
-        expectedNfts = ['5000', '5004']
+        expectedNfts = ['5000', '5003', '5004']
         expectedEvents = [
             {
+                'eventTimestamp': '2022-12-07T21:13:47',
+                'paymentToken': 'ETH',
                 'tokenId': '5000',
-                'eventTimestamp': '2023-01-22T23:56:59',
-                'totalPrice': '391410000000000000',
-                'paymentToken': 'WETH'
+                'totalPrice': '397000000000000000'
             },
             {
-                'tokenId': '5004',
-                'eventTimestamp': '2023-01-22T23:27:59',
-                'totalPrice': '600000000000000000',
-                'paymentToken': 'WETH'
+                'eventTimestamp': '2022-12-01T07:40:35',
+                'paymentToken': 'ETH',
+                'tokenId': '5003',
+                'totalPrice': '379800000000000000'
             },
             {
+                'eventTimestamp': '2022-11-30T11:08:59',
+                'paymentToken': 'WETH',
+                'tokenId': '5003',
+                'totalPrice': '360400000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-22T14:34:23',
+                'paymentToken': 'ETH',
                 'tokenId': '5004',
-                'eventTimestamp': '2023-01-04T20:00:23',
-                'totalPrice': '700000000000000000',
-                'paymentToken': 'ETH'
+                'totalPrice': '365000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-16T19:35:47',
+                'paymentToken': 'ETH',
+                'tokenId': '5004',
+                'totalPrice': '265990000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-16T00:43:11',
+                'paymentToken': 'WETH',
+                'tokenId': '5004',
+                'totalPrice': '220100000000000000'
             }
         ]
 
@@ -78,37 +191,7 @@ class TestGenerateClustersClass(unittest.TestCase):
         
         for index, event in enumerate(generatedClusters[0]['events']):
             self.assertEqual(event, expectedEvents[index])
-
-    def test_generatesClusterDataSuccessfullyForCluster4_whenAllMocksReturnSuccessfully(self):
-        result = self.generateClustersClass.generateClusters(self.contractAddress)
-
-        generatedClusters = self.generateClustersClass.clusters.addClusters.call_args[0][1]
-
-        expectedNfts = ['5003', '5008']
-        expectedEvents = [
-            {
-                "tokenId": "5003",
-                "eventTimestamp": "2023-01-22T23:27:59",
-                "totalPrice": "600000000000000000",
-                "paymentToken": "WETH"
-            },
-            {
-                "tokenId": "5003",
-                "eventTimestamp": "2023-01-04T20:00:23",
-                "totalPrice": "700000000000000000",
-                "paymentToken": "ETH"
-            }
-        ]
-
-        self.assertEqual(result, ('Success', 200))
-        self.assertEqual(len(generatedClusters), 4)
-
-        for index, tokenId in enumerate(generatedClusters[3]['nfts'].keys()):
-            self.assertEqual(tokenId, expectedNfts[index])
-        
-        for index, event in enumerate(generatedClusters[3]['events']):
-            self.assertEqual(event, expectedEvents[index])
-
+ 
     def test_generatesClusterDataSuccessfully_whenEventsDataIsEmpty(self):
         eventsClassMock = MagicMock()
         eventsClassMock.getEvents.return_value = {}
@@ -142,211 +225,3 @@ class TestGenerateClustersClass(unittest.TestCase):
         result = self.generateClustersClass.generateClusters(self.contractAddress)
 
         self.assertEqual(result, ('Failure', 500))
-
-
-mockSortedRankingsData = {
-    'columns': [
-        'Background',
-        'Fur',
-        'Clothing',
-        'Beard',
-        'Eye',
-        'trait_count'
-    ],
-    'distributions': [
-        {
-            'tokenId': '5000',
-            'totalScoreDistribution': [
-                {
-                    'traitType': 'Background',
-                    'score': 5555.0
-                },
-                {
-                    'traitType': 'Fur',
-                    'score': 5555.0
-                },
-                {
-                    'traitType': 'Clothing',
-                    'score': 5555.0
-                },
-                {
-                    'traitType': 'Eye',
-                    'score': 5555.0
-                },
-                {
-                    'traitType': 'trait_count',
-                    'score': 10.0
-                },
-            ]
-        },
-        {
-            'tokenId': '5001',
-            'totalScoreDistribution': [
-                {
-                    'traitType': 'Beard',
-                    'score': 5555.0
-                },
-                {
-                    'traitType': 'Fur',
-                    'score': 5555.0
-                },
-                {
-                    'traitType': 'Clothing',
-                    'score': 10.0
-                },
-                {
-                    'traitType': 'Eye',
-                    'score': 5555.0
-                },
-                {
-                    'traitType': 'trait_count',
-                    'score': 10.0
-                },
-            ]
-        },
-        {
-            'tokenId': '5002',
-            'totalScoreDistribution': [
-                {
-                    'traitType': 'Background',
-                    'score': 10.0
-                },
-                {
-                    'traitType': 'Fur',
-                    'score': 5555.0
-                },
-                {
-                    'traitType': 'Clothing',
-                    'score': 20.0
-                },
-                {
-                    'traitType': 'Eye',
-                    'score': 30.0
-                },
-                {
-                    'traitType': 'trait_count',
-                    'score': 10.0
-                },
-            ]
-        },
-        {
-            'tokenId': '5003',
-            'totalScoreDistribution': [
-                {
-                    'traitType': 'Beard',
-                    'score': 10.0
-                },
-                {
-                    'traitType': 'Fur',
-                    'score': 1.0
-                },
-                {
-                    'traitType': 'Clothing',
-                    'score': 20.0
-                },
-                {
-                    'traitType': 'Eye',
-                    'score': 400.0
-                },
-                {
-                    'traitType': 'trait_count',
-                    'score': 100.0
-                },
-            ]
-        },
-    ]
-}
-
-mockOldEventsData = {
-  '5000': [
-    {
-      'tokenId': '5000',
-      'eventTimestamp': '2023-01-22T23:56:59',
-      'totalPrice': '391410000000000000',
-      'paymentToken': 'WETH'
-    }
-  ],
-  '5001': [
-    {
-      'tokenId': '5001',
-      'eventTimestamp': '2023-01-22T23:32:35',
-      'totalPrice': '502500000000000000',
-      'paymentToken': 'ETH'
-    }
-  ],
-  '5002': [
-    {
-      'tokenId': '5002',
-      'eventTimestamp': '2023-01-22T23:27:59',
-      'totalPrice': '600000000000000000',
-      'paymentToken': 'WETH'
-    },
-    {
-      'tokenId': '5002',
-      'eventTimestamp': '2023-01-04T20:00:23',
-      'totalPrice': '700000000000000000',
-      'paymentToken': 'ETH'
-    }
-  ],
-  '5003': [
-    {
-      'tokenId': '5003',
-      'eventTimestamp': '2023-01-22T23:27:59',
-      'totalPrice': '600000000000000000',
-      'paymentToken': 'WETH'
-    },
-    {
-      'tokenId': '5003',
-      'eventTimestamp': '2023-01-04T20:00:23',
-      'totalPrice': '700000000000000000',
-      'paymentToken': 'ETH'
-    }
-  ],
-  '5004': [
-    {
-      'tokenId': '5004',
-      'eventTimestamp': '2023-01-22T23:27:59',
-      'totalPrice': '600000000000000000',
-      'paymentToken': 'WETH'
-    },
-    {
-      'tokenId': '5004',
-      'eventTimestamp': '2023-01-04T20:00:23',
-      'totalPrice': '700000000000000000',
-      'paymentToken': 'ETH'
-    }
-  ],
-  '5005': [
-    {
-      'tokenId': '5005',
-      'eventTimestamp': '2023-01-22T23:27:59',
-      'totalPrice': '600000000000000000',
-      'paymentToken': 'WETH'
-    },
-    {
-      'tokenId': '5005',
-      'eventTimestamp': '2023-01-04T20:00:23',
-      'totalPrice': '700000000000000000',
-      'paymentToken': 'ETH'
-    }
-  ]
-}
-
-mockTransformRankedDataToClustersData = {
-    '0': {
-        '5000': 1,
-        '5004': 5
-    },
-    '1': {
-        '5001': 2,
-        '5005': 6
-    },
-    '2': {
-        '5002': 3,
-        '5007': 7
-    },
-    '3': {
-        '5003': 4,
-        '5008': 8
-    }
-}

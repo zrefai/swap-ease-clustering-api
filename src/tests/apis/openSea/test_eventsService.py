@@ -45,7 +45,7 @@ class TestEventsService(unittest.TestCase):
 
       self.mock_get.return_value = mock_response
 
-    def test_getRequestReturnsSuccess_MapsEventsCorrectly(self):
+    def test_getRequestReturnsSuccess_mapsEventsCorrectly(self):
       self.setUp()
       result = self.eventsService.getEvents(mockUrl, mockHeaders)
 

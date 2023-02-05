@@ -18,7 +18,6 @@ class TestEventsClass(unittest.TestCase):
         self.contractAddress = 'contractAddress'
 
         self.addClassCleanup(self.patchTime.stop)
-
     
     @classmethod
     def tearDownClass(self):

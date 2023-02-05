@@ -25,6 +25,8 @@ def addEventsToClusters(events, clusters):
                         'events': []
                     }
 
-    # TODO: sort by timestamp here
-
-    return eventsAndClusters
+    for clusterNumber in eventsAndClusters.keys():
+        eventsAndClusters[clusterNumber]['events'].sort(key=lambda e: e['eventTimestamp'], reverse=True)
+        eventsAndClusters[clusterNumber]['events'] = [{**e, 'eventTimestamp': e['eventTimestamp'].isoformat()} for e in eventsAndClusters[clusterNumber]['events']]
+    
+    return list(eventsAndClusters.values())

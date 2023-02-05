@@ -20,8 +20,8 @@ class TestAggregateEvents(unittest.TestCase):
         self.assertEqual(self.result[2]['rankAverage'], 11.5)
         self.assertEqual(self.result[2]['totalSales'], 0)
 
-mockClustersAndEvents = {
-  '1': {
+mockClustersAndEvents = [
+  {
     'nfts': { '1': 6, '2': 7, '3': 8, '4': 9 },
     'events': [
       {
@@ -74,7 +74,7 @@ mockClustersAndEvents = {
       }
     ]
   },
-  '0': {
+  {
     'nfts': { '5': 5, '6': 3, '7': 2, '8': 1 },
     'events': [
       {
@@ -115,9 +115,9 @@ mockClustersAndEvents = {
       }
     ]
   },
-  '2': { 'nfts': { '1': 10, '2': 11, '3': 12, '4': 13 }, 'events': [] },
-  '3': { 'nfts': { '1': 6, '2': 7, '3': 8, '4': 9 }, 'events': [] }
-}
+  { 'nfts': { '1': 10, '2': 11, '3': 12, '4': 13 }, 'events': [] },
+  { 'nfts': { '1': 6, '2': 7, '3': 8, '4': 9 }, 'events': [] }
+]
 
 
 if __name__ == '__main__':

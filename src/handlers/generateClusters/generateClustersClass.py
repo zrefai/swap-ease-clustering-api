@@ -1,7 +1,6 @@
 from src.apis.openSea.eventsClass import EventsClass
 from src.data.clusters import Clusters
 from src.dataProcessing.clusteringAlgorithms.KMeans import getKMeanLabels
-from src.handlers.generateClusters.addEventsToClusters import addEventsToClusters
 from src.handlers.generateClusters.aggregateEvents import aggregateEvents
 from src.helpers.formatRankedData import formatRankedData
 from src.data.sortedRankings import SortedRankings
@@ -18,7 +17,7 @@ class GenerateClustersClass:
         
             clusters = self.transformRankedDataToClusters(rankedData)
             events = self.eventsClass.getEvents(contractAddress)
-            eventsAndClusters = addEventsToClusters(events, clusters)
+            eventsAndClusters = self.addEventsToClusters(events, clusters)
 
             result = aggregateEvents(eventsAndClusters)
 
@@ -30,8 +29,6 @@ class GenerateClustersClass:
                 return f'Failure', 500
         except:
             print('Could not generate clusters for {}'.format(contractAddress))
-            # if e.__cause__:
-            #     print('Cause:', e.__cause__)
             
             return f'Failure', 500
 
@@ -54,3 +51,35 @@ class GenerateClustersClass:
             else:
                 clusters[label.item()] = {}
                 clusters[label.item()][tokenId] = index + 1
+    
+    def addEventsToClusters(self, events, clusters):
+        eventsAndClusters = {}
+
+        # Add associated events to respective clusters
+        for tokenId in events.keys():
+            for clusterNumber in clusters.keys():
+
+                # If found, add events and nfts from cluster
+                if tokenId in clusters[clusterNumber]:
+                    if clusterNumber in eventsAndClusters:
+                        eventsAndClusters[clusterNumber]['events'].extend(events[tokenId])
+                    else:
+                        eventsAndClusters[clusterNumber] = {
+                            'nfts': clusters[clusterNumber],
+                            'events': events[tokenId]
+                        }
+                    break
+
+        # Add remaining clusters that didnt have events
+        for clusterNumber in clusters.keys():
+            if clusterNumber not in eventsAndClusters:
+                eventsAndClusters[clusterNumber] = {
+                            'nfts': clusters[clusterNumber],
+                            'events': []
+                        }
+
+        for clusterNumber in eventsAndClusters.keys():
+            eventsAndClusters[clusterNumber]['events'].sort(key=lambda e: e['eventTimestamp'], reverse=True)
+            eventsAndClusters[clusterNumber]['events'] = [{**e, 'eventTimestamp': e['eventTimestamp'].isoformat()} for e in eventsAndClusters[clusterNumber]['events']]
+    
+        return list(eventsAndClusters.values())
