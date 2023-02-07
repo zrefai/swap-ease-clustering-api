@@ -14,7 +14,7 @@ class GenerateClustersClass:
     def generateClusters(self, contractAddress):
         try:
             rankedData = self.sortedRankings.getSortedRankings(contractAddress)
-        
+                
             clusters = self.transformRankedDataToClusters(rankedData)
             events = self.eventsClass.getEvents(contractAddress)
             eventsAndClusters = self.addEventsToClusters(events, clusters)
@@ -51,6 +51,8 @@ class GenerateClustersClass:
             else:
                 clusters[label.item()] = {}
                 clusters[label.item()][tokenId] = index + 1
+        
+        return clusters
     
     def addEventsToClusters(self, events, clusters):
         eventsAndClusters = {}

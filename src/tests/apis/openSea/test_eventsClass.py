@@ -69,7 +69,7 @@ class TestEventsClass(unittest.TestCase):
         ]
         result = self.eventsClass.getEvents(self.contractAddress)
 
-        for index, event in enumerate(result["1"]):
+        for index, event in enumerate(result['1']):
             self.assertEqual(event, expectedEvents[index])
     
     def test_buildsUrlCorrectly_whenCalledWithNoCursor(self):

@@ -15,7 +15,7 @@ class EventsService:
         }
     
     def __eventsMapper(self, response):
-        def getEvent(e):
+        def mapEvent(e):
             return {
                 'tokenId': e['asset']['token_id'],
                 'eventTimestamp': getDateObject( e['event_timestamp']),
@@ -25,5 +25,5 @@ class EventsService:
     
         return {
             'next': response['next'],
-            'assetEvents': list(map(getEvent, response['asset_events']))
+            'assetEvents': list(map(mapEvent, response['asset_events']))
         }

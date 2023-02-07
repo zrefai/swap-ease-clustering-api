@@ -1,8 +1,10 @@
 import datetime
 import unittest
 from unittest.mock import MagicMock, Mock, patch
+from src.mocks.mockProcessedEvents import mockProcessedEvents
+from src.mocks.mockProcessedClusters import mockProcessedClusters
+from src.helpers.dateHelpers import getDateObject
 from src.handlers.updateClusters.updateClustersClass import UpdateClustersClass
-# from freezegun import freeze_time
 
 class TestUpdateClustersClass(unittest.TestCase):
     @classmethod
@@ -20,7 +22,7 @@ class TestUpdateClustersClass(unittest.TestCase):
     @patch.object(UpdateClustersClass, '__init__', Mock(return_value=None))
     def setUp(self):
         clustersMock = MagicMock()
-        clustersMock.getClusters.return_value = {}
+        clustersMock.getClusters.return_value = mockProcessedClusters()
 
         self.mockGetDateBoundary.return_value = datetime.datetime.strptime('2023-01-05T12:00:00', '%Y-%m-%dT%H:%M:%S')
 
@@ -32,195 +34,186 @@ class TestUpdateClustersClass(unittest.TestCase):
         return super().tearDown()
     
     def test_removePastEvents_filtersOutPastEventsSuccessfully(self):
-        result = self.updateClustersClass.removePastEvents(mockClustersData)
+        result = self.updateClustersClass.removePastEvents(mockProcessedClusters())
 
-        self.assertEqual(len(result['clusters'][0]['events']), 2)
-        self.assertEqual(len(result['clusters'][1]['events']), 2)
-        self.assertEqual(len(result['clusters'][2]['events']), 0)
-        self.assertEqual(len(result['clusters'][3]['events']), 0)
+        self.assertEqual(len(result[0]['events']), 2)
+        self.assertEqual(len(result[1]['events']), 2)
+        self.assertEqual(len(result[2]['events']), 0)
+        self.assertEqual(len(result[3]['events']), 0)
 
     def test_removePastEvents_eventsReturnedSuccessfully_whenTimestampsAreGreaterThanDateBoundary(self):
-        result = self.updateClustersClass.removePastEvents(mockClustersData)
+        result = self.updateClustersClass.removePastEvents(mockProcessedClusters())
 
-        self.assertEqual(len(result['clusters'][0]['events']), 2)
-        self.assertEqual(len(result['clusters'][1]['events']), 2)
+        self.assertEqual(len(result[0]['events']), 2)
+        self.assertEqual(len(result[1]['events']), 2)
 
-        for event in result['clusters'][0]['events']:
-            self.assertGreater(datetime.datetime.strptime(event['eventTimestamp'], '%Y-%m-%dT%H:%M:%S'), self.mockGetDateBoundary.return_value)
+        for event in result[0]['events']:
+            self.assertGreater(event['eventTimestamp'], self.mockGetDateBoundary.return_value)
         
-        for event in result['clusters'][1]['events']:
-            self.assertGreater(datetime.datetime.strptime(event['eventTimestamp'], '%Y-%m-%dT%H:%M:%S'), self.mockGetDateBoundary.return_value)
+        for event in result[1]['events']:
+            self.assertGreater(event['eventTimestamp'], self.mockGetDateBoundary.return_value)
     
     def test_removePastEvents_returnsSuccessfully_whenEventsAreEmpty(self):
         result = self.updateClustersClass.removePastEvents(
-            {
-                'contractAddress': 'contractAddress',
-                'createdAt': 'timestamp-1',
-                'lastUpdated': 'timestamp-2',
-                'clusters': [{
-                    'totalVolume': 0,
-                    'highesSale': 0,
-                    'lowestSale': 0,
-                    'rankAverage': 0,
-                    'totalSales': 0,
-                    'nfts': { '10': 10, '11': 11, '12': 12, '13': 13 },
-                    'events': []
-                }]
-            })
+            [{
+                'totalVolume': 0,
+                'highesSale': 0,
+                'lowestSale': 0,
+                'rankAverage': 0,
+                'totalSales': 0,
+                'nfts': { '10': 10, '11': 11, '12': 12, '13': 13 },
+                'events': []
+            }])
 
-        self.assertEqual(len(result['clusters'][0]['events']), 0)
+        self.assertEqual(len(result[0]['events']), 0)
     
     def test_getLatestEventTimestamp_returnsLatestEventTimestampSuccessfully(self):
-        result = self.updateClustersClass.getLatestEventTimestamp(mockClustersData)
+        result = self.updateClustersClass.getLatestEventTimestamp(mockProcessedClusters())
 
-        self.assertEqual(result.isoformat(), '2023-01-07T21:13:47')
+        self.assertEqual(result, getDateObject('2023-01-07T21:13:47'))
     
     def test_getLatestEventTimestamp_returnsDefaultDate_whenClustersHaveNoEvents(self):
         result = self.updateClustersClass.getLatestEventTimestamp(
-            {
-                'contractAddress': 'contractAddress',
-                'createdAt': 'timestamp-1',
-                'lastUpdated': 'timestamp-2',
-                'clusters': [{
-                    'totalVolume': 0,
-                    'highesSale': 0,
-                    'lowestSale': 0,
-                    'rankAverage': 0,
-                    'totalSales': 0,
-                    'nfts': { '10': 10, '11': 11, '12': 12, '13': 13 },
-                    'events': []
-                }]
-            })
+            [{
+                'totalVolume': 0,
+                'highesSale': 0,
+                'lowestSale': 0,
+                'rankAverage': 0,
+                'totalSales': 0,
+                'nfts': { '10': 10, '11': 11, '12': 12, '13': 13 },
+                'events': []
+            }])
         
         self.assertEqual(result.isoformat(), '2014-01-01T00:00:00')
-
     
-mockClustersData = {
-    'contractAddress': 'contractAddress',
-    'createdAt': 'timestamp-1',
-    'lastUpdated': 'timestamp-2',
-    'clusters': [
-        {
-            'totalVolume': 0,
-            'highesSale': 0,
-            'lowestSale': 0,
-            'rankAverage': 0,
-            'totalSales': 0,
-            'nfts': { '1': 6, '2': 7, '3': 8, '4': 9 },
-            'events': [
-                {
-                    'eventTimestamp': '2023-01-07T21:13:47',
-                    'paymentToken': 'ETH',
-                    'tokenId': '1',
-                    'totalPrice': '397000000000000000'
-                },
-                {
-                    'eventTimestamp': '2023-01-06T18:56:35',
-                    'paymentToken': 'ETH',
-                    'tokenId': '2',
-                    'totalPrice': '650000000000000000'
-                },
-                {
-                    'eventTimestamp': '2022-11-17T08:09:11',
-                    'paymentToken': 'WETH',
-                    'tokenId': '2',
-                    'totalPrice': '300000000000000000'
-                },
-                {
-                    'eventTimestamp': '2022-12-31T08:38:59',
-                    'paymentToken': 'ETH',
-                    'tokenId': '3',
-                    'totalPrice': '649000000000000000'
-                },
-                {
-                    'eventTimestamp': '2022-12-30T19:52:11',
-                    'paymentToken': 'ETH',
-                    'tokenId': '3',
-                    'totalPrice': '386899900000000000'
-                },
-                {
-                    'eventTimestamp': '2022-12-30T19:45:47',
-                    'paymentToken': 'WETH',
-                    'tokenId': '3',
-                    'totalPrice': '326320000000000000'
-                },
-                {
-                    'eventTimestamp': '2022-12-01T07:40:35',
-                    'paymentToken': 'ETH',
-                    'tokenId': '4',
-                    'totalPrice': '379800000000000000'
-                },
-                {
-                    'eventTimestamp': '2022-11-30T11:08:59',
-                    'paymentToken': 'WETH',
-                    'tokenId': '4',
-                    'totalPrice': '360400000000000000'
-                }
-            ]
-        },
-        {
-            'totalVolume': 0,
-            'highesSale': 0,
-            'lowestSale': 0,
-            'rankAverage': 0,
-            'totalSales': 0,
-            'nfts': { '5': 5, '6': 3, '7': 2, '8': 1 },
-            'events': [
-                {
-                    'eventTimestamp': '2023-01-07T20:13:47',
-                    'paymentToken': 'ETH',
-                    'tokenId': '5',
-                    'totalPrice': '397000000000000000'
-                },
-                {
-                    'eventTimestamp': '2023-01-06T18:56:35',
-                    'paymentToken': 'ETH',
-                    'tokenId': '5',
-                    'totalPrice': '650000000000000000'
-                },
-                {
-                    'eventTimestamp': '2022-11-17T08:09:11',
-                    'paymentToken': 'WETH',
-                    'tokenId': '5',
-                    'totalPrice': '300000000000000000'
-                },
-                {
-                    'eventTimestamp': '2022-12-31T08:38:59',
-                    'paymentToken': 'ETH',
-                    'tokenId': '6',
-                    'totalPrice': '649000000000000000'
-                },
-                {
-                    'eventTimestamp': '2022-12-30T19:52:11',
-                    'paymentToken': 'ETH',
-                    'tokenId': '6',
-                    'totalPrice': '386899900000000000'
-                },
-                {
-                    'eventTimestamp': '2022-12-30T19:45:47',
-                    'paymentToken': 'WETH',
-                    'tokenId': '6',
-                    'totalPrice': '326320000000000000'
-                },
-            ]
-        },
-        {
-            'totalVolume': 0,
-            'highesSale': 0,
-            'lowestSale': 0,
-            'rankAverage': 0,
-            'totalSales': 0,
-            'nfts': { '10': 10, '11': 11, '12': 12, '13': 13 },
-            'events': []
-        },
-        {
-            'totalVolume': 0,
-            'highesSale': 0,
-            'lowestSale': 0,
-            'rankAverage': 0,
-            'totalSales': 0,
-            'nfts': { '14': 14, '15': 15, '16': 16, '17': 17 },
-            'events': []
-        }
-    ]
-}
+    def test_addNewEventsToClusters_returnsCorrectEventsForFirstCluster(self):
+        mockEventsResult0 = [
+            {
+                'eventTimestamp': '2023-01-07T21:13:47',
+                'paymentToken': 'ETH',
+                'tokenId': '5001',
+                'totalPrice': '397000000000000000'
+            },
+            {
+                'eventTimestamp': '2023-01-06T18:56:35',
+                'paymentToken': 'ETH',
+                'tokenId': '5000',
+                'totalPrice': '650000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-12-31T08:38:59',
+                'paymentToken': 'ETH',
+                'tokenId': '5003',
+                'totalPrice': '649000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-12-07T21:13:47',
+                'paymentToken': 'ETH',
+                'tokenId': '5000',
+                'totalPrice': '397000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-12-01T07:40:35',
+                'paymentToken': 'ETH',
+                'tokenId': '5003',
+                'totalPrice': '379800000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-30T11:08:59',
+                'paymentToken': 'WETH',
+                'tokenId': '5003',
+                'totalPrice': '360400000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-22T14:34:23',
+                'paymentToken': 'ETH',
+                'tokenId': '5004',
+                'totalPrice': '365000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-17T08:09:11',
+                'paymentToken': 'WETH',
+                'tokenId': '5000',
+                'totalPrice': '300000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-16T19:35:47',
+                'paymentToken': 'ETH',
+                'tokenId': '5004',
+                'totalPrice': '265990000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-16T00:43:11',
+                'paymentToken': 'WETH',
+                'tokenId': '5004',
+                'totalPrice': '220100000000000000'
+            }
+        ]
+
+        result = self.updateClustersClass.addNewEventsToClusters(mockProcessedEvents(), mockProcessedClusters())
+
+        for index, transaction in enumerate(result[0]['events']):
+            self.assertEqual(transaction, mockEventsResult0[index])
+    
+    def test_addNewEventsToClusters_returnsCorrectEventsForSecondCluster(self):
+        mockEventsResult1 = [
+            {
+                'eventTimestamp': '2023-01-07T20:13:47',
+                'paymentToken': 'ETH',
+                'tokenId': '5005',
+                'totalPrice': '397000000000000000'
+            },
+            {
+                'eventTimestamp': '2023-01-06T18:56:35',
+                'paymentToken': 'ETH',
+                'tokenId': '5005',
+                'totalPrice': '650000000000000000'
+            },
+            {
+                'eventTimestamp': '2023-01-06T18:56:35',
+                'paymentToken': 'ETH',
+                'tokenId': '5001',
+                'totalPrice': '650000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-12-31T08:38:59',
+                'paymentToken': 'ETH',
+                'tokenId': '5006',
+                'totalPrice': '649000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-12-05T20:27:11',
+                'paymentToken': 'ETH',
+                'tokenId': '5005',
+                'totalPrice': '449000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-12-02T23:25:35',
+                'paymentToken': 'ETH',
+                'tokenId': '5005',
+                'totalPrice': '372500000000000000'
+            },
+            {
+                'eventTimestamp': '2022-12-02T21:07:59',
+                'paymentToken': 'WETH',
+                'tokenId': '5005',
+                'totalPrice': '332010000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-17T08:09:11',
+                'paymentToken': 'WETH',
+                'tokenId': '5005',
+                'totalPrice': '300000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-17T08:09:11',
+                'paymentToken': 'WETH',
+                'tokenId': '5001',
+                'totalPrice': '300000000000000000'
+            }
+        ]
+
+        result = self.updateClustersClass.addNewEventsToClusters(mockProcessedEvents(), mockProcessedClusters())
+
+        for index, transaction in enumerate(result[1]['events']):
+            self.assertEqual(transaction, mockEventsResult1[index])

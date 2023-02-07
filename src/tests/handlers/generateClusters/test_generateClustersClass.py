@@ -92,34 +92,34 @@ class TestGenerateClustersClass(unittest.TestCase):
     def test_addEventsToClusters_returnsCorrectEventsForSecondValue(self):
         mockEventsResult1 = [
             {
-                "eventTimestamp": "2023-01-06T18:56:35",
-                "paymentToken": "ETH",
-                "tokenId": "5001",
-                "totalPrice": "650000000000000000"
+                'eventTimestamp': '2023-01-06T18:56:35',
+                'paymentToken': 'ETH',
+                'tokenId': '5001',
+                'totalPrice': '650000000000000000'
             },
             {
-                "eventTimestamp": "2022-12-05T20:27:11",
-                "paymentToken": "ETH",
-                "tokenId": "5005",
-                "totalPrice": "449000000000000000"
+                'eventTimestamp': '2022-12-05T20:27:11',
+                'paymentToken': 'ETH',
+                'tokenId': '5005',
+                'totalPrice': '449000000000000000'
             },
             {
-                "eventTimestamp": "2022-12-02T23:25:35",
-                "paymentToken": "ETH",
-                "tokenId": "5005",
-                "totalPrice": "372500000000000000"
+                'eventTimestamp': '2022-12-02T23:25:35',
+                'paymentToken': 'ETH',
+                'tokenId': '5005',
+                'totalPrice': '372500000000000000'
             },
             {
-                "eventTimestamp": "2022-12-02T21:07:59",
-                "paymentToken": "WETH",
-                "tokenId": "5005",
-                "totalPrice": "332010000000000000"
+                'eventTimestamp': '2022-12-02T21:07:59',
+                'paymentToken': 'WETH',
+                'tokenId': '5005',
+                'totalPrice': '332010000000000000'
             },
             {
-                "eventTimestamp": "2022-11-17T08:09:11",
-                "paymentToken": "WETH",
-                "tokenId": "5001",
-                "totalPrice": "300000000000000000"
+                'eventTimestamp': '2022-11-17T08:09:11',
+                'paymentToken': 'WETH',
+                'tokenId': '5001',
+                'totalPrice': '300000000000000000'
             }
         ]
 

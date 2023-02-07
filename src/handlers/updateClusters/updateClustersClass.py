@@ -1,5 +1,6 @@
 import datetime
-from src.helpers.dateHelpers import getDateBoundary, getDateObject 
+from src.handlers.generateClusters.aggregateEvents import aggregateEvents
+from src.helpers.dateHelpers import getDateBoundary 
 from src.apis.openSea.eventsClass import EventsClass
 from src.data.clusters import Clusters
 
@@ -13,19 +14,16 @@ class UpdateClustersClass:
             clusters = self.clusters.getClusters(contractAddress)
             
             self.removePastEvents(clusters)
-
             newEvents = self.eventsClass.getEvents(contractAddress, self.getLatestEventTimestamp(clusters))
-
             self.addNewEventsToClusters(newEvents, clusters)
 
-            # Aggregate new events
+            result = aggregateEvents(clusters)
 
-            # Update clusters document in DB
-            pass
+            self.clusters.updateClusters(contractAddress, result)
+
+            return f'Success', 200
         except:
             print('Could not update clusters for {}'.format(contractAddress))
-            # if e.__cause__:
-            #     print('Cause:', e.__cause__) 
             
             return f'Failure', 500
     
@@ -33,39 +31,39 @@ class UpdateClustersClass:
         dateBoundary = getDateBoundary(90)
 
         def filterEvents(event):
-            eventTimestampObject = getDateObject(event['eventTimestamp'])
+            eventTimestampObject = event['eventTimestamp']
 
             if eventTimestampObject < dateBoundary:
                 return False
             else:
                 return True
 
-        for index in range(len(clusters['clusters'])):
-            filteredEvents = list(filter(filterEvents, clusters['clusters'][index]['events']))
-            clusters['clusters'][index]['events'] = filteredEvents
+        for index in range(len(clusters)):
+            filteredEvents = list(filter(filterEvents, clusters[index]['events']))
+            clusters[index]['events'] = filteredEvents
         
         return clusters
     
     def getLatestEventTimestamp(self, clusters):
         latestEventDate = datetime.datetime(2014, 1, 1)
 
-        for cluster in clusters['clusters']:
+        for cluster in clusters:
             for event in cluster['events']:
-                eventTimestampObject = getDateObject(event['eventTimestamp'])
-
-                latestEventDate = max(eventTimestampObject, latestEventDate)
+                latestEventDate = max(event['eventTimestamp'], latestEventDate)
         
         return latestEventDate
     
     def addNewEventsToClusters(self, newEvents, clusters):
         for tokenId in newEvents.keys():
-            for cluster in clusters['clusters']:
+            for cluster in clusters:
                 # If token is found in a cluster, add their events
                 if tokenId in cluster['nfts']:
                     cluster['events'].extend(newEvents[tokenId])
                     break
         
-        # TODO: sort by timestamp here
+        for cluster in clusters:
+            cluster['events'].sort(key=lambda e: e['eventTimestamp'], reverse=True)
+            cluster['events'] = [{**e, 'eventTimestamp': e['eventTimestamp'].isoformat()} for e in cluster['events']]
         
         return clusters
 
