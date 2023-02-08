@@ -208,12 +208,7 @@ class TestGenerateClustersClass(unittest.TestCase):
             self.assertEqual(len(cluster['events']), 0)
 
     def test_returnsFailure_whenAddClustersFailsToAddClusters(self):
-        docIdMock = MagicMock()
-        docIdMock.acknowledged = False
-        clustersMock = MagicMock()
-        clustersMock.addClusters.return_value = docIdMock
-        
-        self.generateClustersClass.clusters = clustersMock
+        self.generateClustersClass.clusters.addClusters.side_effect = Exception()
 
         result = self.generateClustersClass.generateClusters(self.contractAddress)
 

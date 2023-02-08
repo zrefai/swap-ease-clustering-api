@@ -23,11 +23,16 @@ class TestUpdateClustersClass(unittest.TestCase):
     def setUp(self):
         clustersMock = MagicMock()
         clustersMock.getClusters.return_value = mockProcessedClusters()
+        clustersMock.updateClusters.return_value = True
+
+        eventsClassMock = MagicMock()
+        eventsClassMock.getEvents.return_value = mockProcessedEvents()
 
         self.mockGetDateBoundary.return_value = datetime.datetime.strptime('2023-01-05T12:00:00', '%Y-%m-%dT%H:%M:%S')
 
         self.updateClustersClass = UpdateClustersClass()
         self.updateClustersClass.clusters = clustersMock
+        self.updateClustersClass.eventsClass = eventsClassMock
     
     def tearDown(self):
         self.updateClustersClass = None
@@ -57,7 +62,7 @@ class TestUpdateClustersClass(unittest.TestCase):
         result = self.updateClustersClass.removePastEvents(
             [{
                 'totalVolume': 0,
-                'highesSale': 0,
+                'highestSale': 0,
                 'lowestSale': 0,
                 'rankAverage': 0,
                 'totalSales': 0,
@@ -76,7 +81,7 @@ class TestUpdateClustersClass(unittest.TestCase):
         result = self.updateClustersClass.getLatestEventTimestamp(
             [{
                 'totalVolume': 0,
-                'highesSale': 0,
+                'highestSale': 0,
                 'lowestSale': 0,
                 'rankAverage': 0,
                 'totalSales': 0,
@@ -217,3 +222,118 @@ class TestUpdateClustersClass(unittest.TestCase):
 
         for index, transaction in enumerate(result[1]['events']):
             self.assertEqual(transaction, mockEventsResult1[index])
+
+    def test_updateClusters_returnsSuccess_whenClustersAreUpdated(self):
+        result = self.updateClustersClass.updateClusters('contractAddress')
+
+        self.assertEqual(result, ('Success', 200))
+    
+    def test_updateClusters_returnsFailure_whenUpdatingClustersThrowsException(self):
+        clustersMock = MagicMock()
+        clustersMock.getClusters.return_value = mockProcessedClusters()
+        clustersMock.updateClusters.side_effect = Exception('Could not update clusters in DB')
+
+        self.updateClustersClass.clusters = clustersMock
+
+        result = self.updateClustersClass.updateClusters('contractAddress')
+
+        self.assertEqual(result, ('Failure', 500))
+    
+    def test_updateClusters_returnsFailure_whenGetEventsThrowsException(self):
+        eventsClassMock = MagicMock()
+        eventsClassMock.getEvents.side_effect = Exception('Could not get events')
+
+        self.updateClustersClass.eventsClass = eventsClassMock
+
+        result = self.updateClustersClass.updateClusters('contractAddress')
+
+        self.assertEqual(result, ('Failure', 500))
+
+    def test_updateClusters_firstClusterPassedToUpdateClustersIsCorrect(self):
+        result = self.updateClustersClass.updateClusters('contractAddress')
+
+        updatedClusters = self.updateClustersClass.clusters.updateClusters.call_args[0][1]
+
+        mockAggregates = {
+            'totalVolume': 3.03529,
+            'highestSale': 0.65,
+            'lowestSale': 0.2201,
+            'rankAverage': 30.75,
+            'totalSales': 8,
+        }
+        mockEvents = [
+            {
+                'eventTimestamp': '2023-01-07T21:13:47',
+                'paymentToken': 'ETH',
+                'tokenId': '5001',
+                'totalPrice': '397000000000000000'
+            },
+            {
+                'eventTimestamp': '2023-01-06T18:56:35',
+                'paymentToken': 'ETH',
+                'tokenId': '5000',
+                'totalPrice': '650000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-12-07T21:13:47',
+                'paymentToken': 'ETH',
+                'tokenId': '5000',
+                'totalPrice': '397000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-12-01T07:40:35',
+                'paymentToken': 'ETH',
+                'tokenId': '5003',
+                'totalPrice': '379800000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-30T11:08:59',
+                'paymentToken': 'WETH',
+                'tokenId': '5003',
+                'totalPrice': '360400000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-22T14:34:23',
+                'paymentToken': 'ETH',
+                'tokenId': '5004',
+                'totalPrice': '365000000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-16T19:35:47',
+                'paymentToken': 'ETH',
+                'tokenId': '5004',
+                'totalPrice': '265990000000000000'
+            },
+            {
+                'eventTimestamp': '2022-11-16T00:43:11',
+                'paymentToken': 'WETH',
+                'tokenId': '5004',
+                'totalPrice': '220100000000000000'
+            }
+        ]
+
+        self.assertEqual(result, ('Success', 200))
+
+        for index, transaction in enumerate(updatedClusters['clusters'][0]['events']):
+            self.assertEqual(transaction, mockEvents[index])
+        
+        for key in mockAggregates.keys():
+            self.assertEqual(mockAggregates[key], updatedClusters['clusters'][0][key])
+
+    def test_updateClusters_collectionAggregatesPassedToUpdateClustersIsCorrect(self):
+        result = self.updateClustersClass.updateClusters('contractAddress')
+
+        updatedClusters = self.updateClustersClass.clusters.updateClusters.call_args[0][1]
+
+        mockAggregates = {
+            'totalVolume': 6.1858,
+            'highestSale': 0.65,
+            'lowestSale': 0.2201,
+            'totalSales': 15,
+        }
+
+        self.assertEqual(result, ('Success', 200))
+        
+        for key in mockAggregates.keys():
+            self.assertEqual(mockAggregates[key], updatedClusters[key])
+

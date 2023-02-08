@@ -4,7 +4,7 @@ def mockProcessedClusters():
     return [
         {
             'totalVolume': 0,
-            'highesSale': 0,
+            'highestSale': 0,
             'lowestSale': 0,
             'rankAverage': 0,
             'totalSales': 0,
@@ -38,7 +38,7 @@ def mockProcessedClusters():
         },
         {
             'totalVolume': 0,
-            'highesSale': 0,
+            'highestSale': 0,
             'lowestSale': 0,
             'rankAverage': 0,
             'totalSales': 0,
@@ -72,7 +72,7 @@ def mockProcessedClusters():
         },
         {
             'totalVolume': 0,
-            'highesSale': 0,
+            'highestSale': 0,
             'lowestSale': 0,
             'rankAverage': 0,
             'totalSales': 0,
@@ -81,7 +81,7 @@ def mockProcessedClusters():
         },
         {
             'totalVolume': 0,
-            'highesSale': 0,
+            'highestSale': 0,
             'lowestSale': 0,
             'rankAverage': 0,
             'totalSales': 0,

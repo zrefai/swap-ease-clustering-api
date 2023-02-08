@@ -19,12 +19,16 @@ class UpdateClustersClass:
 
             result = aggregateEvents(clusters)
 
-            self.clusters.updateClusters(contractAddress, result)
+            result = self.clusters.updateClusters(contractAddress, result)
 
-            return f'Success', 200
-        except:
-            print('Could not update clusters for {}'.format(contractAddress))
+            if result:
+                return f'Success', 200
+            return f'Failure', 500
             
+        except Exception as e:
+            print('Could not update clusters for {}'.format(contractAddress))
+            if e.__cause__:
+                print(e.__cause__)
             return f'Failure', 500
     
     def removePastEvents(self, clusters):

@@ -1,5 +1,4 @@
 import datetime
-import time
 from src.helpers.dateHelpers import getDateObject
 from src.mongoDb import get_db
 
@@ -19,8 +18,14 @@ class Clusters():
             **clustersObject
         }
 
-        # TODO: make it so that it handles from here instead of outside the function
-        return self.collection.insert_one(newDocument)
+        try:
+            result = self.collection.insert_one(newDocument)
+
+            return result.acknowledged
+
+        except:
+            print('Could not add clusters to DB for {}'.format(contractAddress))
+            raise Exception('Could not add clusters to database for {}'.format(contractAddress))
     
     def getClusters(self, contractAddress):
         try:
@@ -31,10 +36,9 @@ class Clusters():
 
             return self.clustersMapper(document)
 
-        except TypeError as e:
-            print(e)
-
-            raise Exception('Cannot continue without Clusters data') from e
+        except:
+            print('Could not retrieve clusters from DB for {}'.format(contractAddress))
+            raise Exception('Cannot continue without clusters data')
     
     def updateClusters(self, contractAddress, clustersObject):
         try:
@@ -49,11 +53,11 @@ class Clusters():
                 }
             })
 
-            if result.acknowledged == False:
-                raise Exception('Could not update document for {}'.format(contractAddress))
+            return result.acknowledged
+
         except:
-            # TODO: make this more explanatory
-            raise Exception()
+            print('Could not update clusters for {}'.format(contractAddress))
+            raise Exception('Could not update clusters for {}'.format(contractAddress))
     
     def clustersMapper(self, document):
         def mapEvent(e):

@@ -21,15 +21,16 @@ class GenerateClustersClass:
 
             result = aggregateEvents(eventsAndClusters)
 
-            docId = self.clusters.addClusters(contractAddress, result)
+            result = self.clusters.addClusters(contractAddress, result)
 
-            if docId.acknowledged:
+            if result:
                 return f'Success', 200
-            else:
-                return f'Failure', 500
-        except:
-            print('Could not generate clusters for {}'.format(contractAddress))
+            return f'Failure', 500
             
+        except Exception as e:
+            print('Could not generate clusters for {}'.format(contractAddress))
+            if e.__cause__:
+                print(e.__cause__)
             return f'Failure', 500
 
     def transformRankedDataToClusters(self, rankedData):
