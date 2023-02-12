@@ -1,5 +1,5 @@
 import requests
-from src.helpers.dateHelpers import getDateObject
+from helpers.dateHelpers import getDateObject
 
 class EventsService:    
     def getEvents(self, url, headers):

@@ -1,7 +1,7 @@
 import time
-from src.helpers.dateHelpers import getDateBoundary
-from src.apis.openSea.eventsService import EventsService
-from src.helpers.getEnvVariables import getEnvVariables
+from helpers.dateHelpers import getDateBoundary
+from apis.openSea.eventsService import EventsService
+from helpers.getEnvVariables import getEnvVariables
 
 class EventsClass:
     envVariables = getEnvVariables()

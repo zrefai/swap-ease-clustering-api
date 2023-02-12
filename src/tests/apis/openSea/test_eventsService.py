@@ -1,8 +1,8 @@
 import requests
 import unittest
 from unittest.mock import patch, MagicMock
-from src.helpers.dateHelpers import getDateObject
-from src.apis.openSea.eventsService import EventsService
+from helpers.dateHelpers import getDateObject
+from apis.openSea.eventsService import EventsService
 
 mockUrl = 'mockUrl'
 mockHeaders = {}

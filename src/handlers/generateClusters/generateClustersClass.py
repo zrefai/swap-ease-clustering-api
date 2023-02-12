@@ -1,9 +1,9 @@
-from src.apis.openSea.eventsClass import EventsClass
-from src.data.clusters import Clusters
-from src.dataProcessing.clusteringAlgorithms.KMeans import getKMeanLabels
-from src.handlers.generateClusters.aggregateEvents import aggregateEvents
-from src.helpers.formatRankedData import formatRankedData
-from src.data.sortedRankings import SortedRankings
+from apis.openSea.eventsClass import EventsClass
+from data.clusters import Clusters
+from dataProcessing.clusteringAlgorithms.KMeans import getKMeanLabels
+from handlers.generateClusters.aggregateEvents import aggregateEvents
+from helpers.formatRankedData import formatRankedData
+from data.sortedRankings import SortedRankings
 
 class GenerateClustersClass:
     def __init__(self):

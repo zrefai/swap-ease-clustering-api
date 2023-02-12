@@ -1,8 +1,8 @@
 import unittest
 from unittest.mock import MagicMock, Mock, patch
-from src.mocks.mockTransformedRankedData import mockTransformedRankedData
-from src.mocks.mockProcessedEvents import mockProcessedEvents
-from src.handlers.generateClusters.generateClustersClass import GenerateClustersClass
+from mocks.mockTransformedRankedData import mockTransformedRankedData
+from mocks.mockProcessedEvents import mockProcessedEvents
+from handlers.generateClusters.generateClustersClass import GenerateClustersClass
 
 class TestGenerateClustersClass(unittest.TestCase):
     @patch.object(GenerateClustersClass, '__init__', Mock(return_value=None))

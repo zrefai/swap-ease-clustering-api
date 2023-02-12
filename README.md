@@ -45,13 +45,13 @@ python3 src/app.py
 
 ## Testing
 
-To run the testing suite, run from src/tests
+To run the testing suite, run from root
 
 ```
-python -m unittest
+pytest
 
-# For verbose testing and suppressing print outs
-python -m unittest -v -b
+# For coverage report in html
+pytest --cov --cov-config=.coveragerc --cov-report=html
 ```
 
 ## Trouble shooting

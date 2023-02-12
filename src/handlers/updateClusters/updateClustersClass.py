@@ -1,8 +1,8 @@
 import datetime
-from src.handlers.generateClusters.aggregateEvents import aggregateEvents
-from src.helpers.dateHelpers import getDateBoundary 
-from src.apis.openSea.eventsClass import EventsClass
-from src.data.clusters import Clusters
+from handlers.generateClusters.aggregateEvents import aggregateEvents
+from helpers.dateHelpers import getDateBoundary 
+from apis.openSea.eventsClass import EventsClass
+from data.clusters import Clusters
 
 class UpdateClustersClass:
     def __init__(self):

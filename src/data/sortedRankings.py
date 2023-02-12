@@ -1,5 +1,5 @@
 from typing import Any
-from src.mongoDb import get_db
+from mongoDb import get_db
 
 class SortedRankings():
     def __init__(self):

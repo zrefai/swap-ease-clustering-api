@@ -1,15 +1,15 @@
 import datetime
 import unittest
 from unittest.mock import MagicMock, Mock, patch
-from src.mocks.mockProcessedEvents import mockProcessedEvents
-from src.mocks.mockProcessedClusters import mockProcessedClusters
-from src.helpers.dateHelpers import getDateObject
-from src.handlers.updateClusters.updateClustersClass import UpdateClustersClass
+from mocks.mockProcessedEvents import mockProcessedEvents
+from mocks.mockProcessedClusters import mockProcessedClusters
+from helpers.dateHelpers import getDateObject
+from handlers.updateClusters.updateClustersClass import UpdateClustersClass
 
 class TestUpdateClustersClass(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.patchGetDateBoundary = patch('src.handlers.updateClusters.updateClustersClass.getDateBoundary')
+        cls.patchGetDateBoundary = patch('handlers.updateClusters.updateClustersClass.getDateBoundary')
         cls.mockGetDateBoundary = cls.patchGetDateBoundary.start()
 
         cls.addClassCleanup(cls.patchGetDateBoundary.stop)

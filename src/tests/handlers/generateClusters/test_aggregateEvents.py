@@ -1,5 +1,5 @@
 import unittest
-from src.handlers.generateClusters.aggregateEvents import aggregateEvents
+from handlers.generateClusters.aggregateEvents import aggregateEvents
 
 class TestAggregateEvents(unittest.TestCase):
     @classmethod

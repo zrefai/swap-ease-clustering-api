@@ -1,4 +1,4 @@
-from src.helpers.dateHelpers import getDateObject
+from helpers.dateHelpers import getDateObject
 
 def mockProcessedClusters():
     return [

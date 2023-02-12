@@ -1,6 +1,6 @@
 import datetime
-from src.helpers.dateHelpers import getDateObject
-from src.mongoDb import get_db
+from helpers.dateHelpers import getDateObject
+from mongoDb import get_db
 
 class Clusters():
     def __init__(self):

@@ -1,5 +1,5 @@
 from unittest.mock import patch, MagicMock
-from src.apis.openSea.eventsClass import EventsClass
+from apis.openSea.eventsClass import EventsClass
 import unittest
 
 class TestEventsClass(unittest.TestCase):
