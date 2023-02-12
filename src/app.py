@@ -1,6 +1,7 @@
 from flask import Flask, request
 from flask_restful import Api
 from handlers.generateClusters.generateClustersClass import GenerateClustersClass
+from handlers.updateClusters.updateClustersClass import UpdateClustersClass
 
 app = Flask(__name__)
 api = Api(app)
@@ -21,7 +22,8 @@ def generateClusters():
 @app.route('/updateClusters', methods=['PATCH'])
 def updateClusters():
     if request.method == 'PATCH':
-        pass
+        updateClusters = UpdateClustersClass()
+        return updateClusters.updateClusters(request.form['contractAddress'])
     return 'Invalid method', 405
 
 if __name__ == '__main__':

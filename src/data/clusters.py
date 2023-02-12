@@ -29,7 +29,7 @@ class Clusters():
     
     def getClusters(self, contractAddress):
         try:
-            document = self.collection.find_one({'contractAddress': contractAddress}, {'clusters': 1})
+            document = self.collection.find_one({'contractAddress': contractAddress})
 
             if document is None:
                 raise TypeError('Clusters document for {} was not found'.format(contractAddress))
@@ -62,10 +62,8 @@ class Clusters():
     def clustersMapper(self, document):
         def mapEvent(e):
             return {
-                'tokenId': e['asset']['token_id'],
-                'eventTimestamp': getDateObject(e['event_timestamp']),
-                'totalPrice': e['total_price'],
-                'paymentToken': e['payment_token']['symbol'] 
+                **e,
+                'eventTimestamp': getDateObject(e['eventTimestamp']),
             }
 
         def mapCluster(c):

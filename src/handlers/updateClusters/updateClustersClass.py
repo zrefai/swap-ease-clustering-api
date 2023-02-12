@@ -26,9 +26,8 @@ class UpdateClustersClass:
             return f'Failure', 500
             
         except Exception as e:
+            print(e)
             print('Could not update clusters for {}'.format(contractAddress))
-            if e.__cause__:
-                print(e.__cause__)
             return f'Failure', 500
     
     def removePastEvents(self, clusters):

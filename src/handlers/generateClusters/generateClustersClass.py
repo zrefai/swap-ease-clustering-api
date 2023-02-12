@@ -28,9 +28,8 @@ class GenerateClustersClass:
             return f'Failure', 500
             
         except Exception as e:
+            print(e)
             print('Could not generate clusters for {}'.format(contractAddress))
-            if e.__cause__:
-                print(e.__cause__)
             return f'Failure', 500
 
     def transformRankedDataToClusters(self, rankedData):

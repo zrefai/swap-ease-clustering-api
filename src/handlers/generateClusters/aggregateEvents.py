@@ -30,6 +30,7 @@ def aggregateEvents(clustersAndEvents):
         
         rankAverage = 0
 
+        # TODO: Investigate if this is needed when updating
         for rank in cluster['nfts'].values():
             rankAverage += rank
 
