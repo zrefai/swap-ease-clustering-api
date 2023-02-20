@@ -1,0 +1,44 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.8
+  pre_build:
+    commands:
+      - python -m venv test_venv
+      - . test_venv/bin/activate
+      - pip install --upgrade pip
+      - pip install -r requirements.txt
+      - mkdir test-reports
+  build:
+    commands:
+      - pytest
+        --html=test-reports/report.html
+        --self-contained-html
+        -s
+        -v
+        --cov
+        --cov-config=.coveragerc
+        --cov-report=html:test-reports/coverage
+        --junitxml=test-reports/junit.xml
+        --log-file=test-reports/logs.txt
+        src/tests
+  post_build:
+    commands:
+      - echo Build completed on `date`
+
+reports:
+  coverage:
+    files:
+      - 'coverage/*'
+    base-directory: 'test-reports'
+    discard-paths: yes
+  report:
+    files:
+      - 'junit.xml'
+      - 'report.html'
+      - 'assets/*'
+    base-directory: 'test-reports'
+    discard-paths: yes
+    file-format: JunitXml
