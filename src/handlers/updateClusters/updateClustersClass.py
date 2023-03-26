@@ -1,4 +1,5 @@
 import datetime
+import traceback
 from handlers.generateClusters.aggregateEvents import aggregateEvents
 from helpers.dateHelpers import getDateBoundary 
 from apis.openSea.eventsClass import EventsClass
@@ -25,8 +26,8 @@ class UpdateClustersClass:
                 return f'Success', 200
             return f'Failure', 500
             
-        except Exception as e:
-            print(e)
+        except Exception:
+            traceback.print_exc()
             print('Could not update clusters for {}'.format(contractAddress))
             return f'Failure', 500
     

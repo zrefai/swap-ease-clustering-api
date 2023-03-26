@@ -1,3 +1,4 @@
+import traceback
 from apis.openSea.eventsClass import EventsClass
 from data.clusters import Clusters
 from dataProcessing.clusteringAlgorithms.KMeans import getKMeanLabels
@@ -27,8 +28,8 @@ class GenerateClustersClass:
                 return f'Success', 200
             return f'Failure', 500
             
-        except Exception as e:
-            print(e)
+        except Exception:
+            traceback.print_exc()
             print('Could not generate clusters for {}'.format(contractAddress))
             return f'Failure', 500
 

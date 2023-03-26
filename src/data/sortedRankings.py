@@ -16,7 +16,7 @@ class SortedRankings():
 
             def mapScores(a):
                 return {
-                    'traitType': a['trait_type'],
+                    'traitType': a['traitType'],
                     'score': a['score']
                 }
 
@@ -28,7 +28,7 @@ class SortedRankings():
                 }
 
             distributions = list(map(mapRankings, document['sortedRanking']))
-            columns = list(map(lambda a: a['trait_type'], document['sortedRanking'][0]['metadata']['attributes']))
+            columns = list(map(lambda a: a['traitType'], document['sortedRanking'][0]['metadata']['attributes']))
 
             return {
                 'columns': columns,

@@ -15,15 +15,29 @@ class EventsService:
         }
     
     def __eventsMapper(self, response):
-        def mapEvent(e):
-            return {
-                'tokenId': e['asset']['token_id'],
-                'eventTimestamp': getDateObject( e['event_timestamp']),
-                'totalPrice': e['total_price'],
-                'paymentToken': e['payment_token']['symbol']
-            }
-    
+        assetEvents = []
+
+        for event in response['asset_events']:
+            if event['asset'] is not None:
+                assetEvents.append({
+                    'tokenId': event['asset']['token_id'],
+                    'eventTimestamp': getDateObject(event['event_timestamp']),
+                    'totalPrice': event['total_price'],
+                    'paymentToken': event['payment_token']['symbol'],
+                    'bundled': False
+                })
+            # TODO: handle bundled events
+            # elif event['asset_bundle'] is not None:
+            #     for bundledAsset in event['asset_bundle']['assets']:
+            #         assetEvents.append({
+            #             'tokenId': bundledAsset['token_id'],
+            #             'eventTimestamp': getDateObject(event['event_timestamp']),
+            #             'totalPrice': str(int(event['total_price']) / len(event['asset_bundle']['assets'])),
+            #             'paymentToken': event['payment_token']['symbol'],
+            #             'bundled': True
+            #         })
+
         return {
             'next': response['next'],
-            'assetEvents': list(map(mapEvent, response['asset_events']))
+            'assetEvents': assetEvents
         }
