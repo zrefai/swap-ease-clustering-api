@@ -17,7 +17,9 @@ class GenerateClustersClass:
             rankedData = self.sortedRankings.getSortedRankings(contractAddress)
                 
             clusters = self.transformRankedDataToClusters(rankedData)
+            print('Getting events')
             events = self.eventsClass.getEvents(contractAddress)
+            print('Finished retrieving events')
             eventsAndClusters = self.addEventsToClusters(events, clusters)
 
             result = aggregateEvents(eventsAndClusters)
@@ -37,6 +39,7 @@ class GenerateClustersClass:
         # Generate clusters from ranked data
         dataFrame = formatRankedData(rankedData)
         labels = getKMeanLabels(dataFrame)
+        print('Finished generating labels')
 
         clusters = {}
 

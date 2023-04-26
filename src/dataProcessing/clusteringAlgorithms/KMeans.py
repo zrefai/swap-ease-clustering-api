@@ -3,7 +3,7 @@ from sklearn.metrics import silhouette_score
 from sklearn.cluster import KMeans
 
 MIN_CLUSTERS = 10
-MAX_CLUSTERS = 20
+MAX_CLUSTERS = 21
 
 kmeans_kwargs = {
     'init': 'random',
@@ -18,6 +18,7 @@ def getKMeanLabels(dataFrame):
     scaledDataFrame = StandardScaler().fit_transform(dataFrame)
 
     for c in range(MIN_CLUSTERS, MAX_CLUSTERS):
+        print("Generating labels for", c, "clusters")
         kmeans = KMeans(n_clusters=c, **kmeans_kwargs)
         kmeans.fit(scaledDataFrame)
         score = silhouette_score(scaledDataFrame, kmeans.labels_)
