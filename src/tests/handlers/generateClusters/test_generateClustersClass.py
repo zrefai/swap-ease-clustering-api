@@ -4,6 +4,7 @@ from mocks.mockTransformedRankedData import mockTransformedRankedData
 from mocks.mockProcessedEvents import mockProcessedEvents
 from handlers.generateClusters.generateClustersClass import GenerateClustersClass
 
+
 class TestGenerateClustersClass(unittest.TestCase):
     @patch.object(GenerateClustersClass, '__init__', Mock(return_value=None))
     def setUp(self):
@@ -19,27 +20,30 @@ class TestGenerateClustersClass(unittest.TestCase):
         eventsClassMock.getEvents.return_value = mockProcessedEvents()
 
         self.generateClustersClass = GenerateClustersClass()
-        self.generateClustersClass.sortedRankings = sortedRankingsMock
+        self.generateClustersClass.collectionNFTs = sortedRankingsMock
         self.generateClustersClass.clusters = clustersMock
         self.generateClustersClass.eventsClass = eventsClassMock
-        self.generateClustersClass.transformRankedDataToClusters = MagicMock(return_value=mockTransformedRankedData())
+        self.generateClustersClass.transformDataToClusters = MagicMock(
+            return_value=mockTransformedRankedData())
 
         self.contractAddress = 'contractAddress'
-    
+
     def tearDown(self):
         self.generateClustersClass = None
         return super().tearDown()
-    
+
     def test_addEventsToClusters_returnsListWithCorrectNumberOfClusters(self):
-        result = self.generateClustersClass.addEventsToClusters(mockProcessedEvents(), mockTransformedRankedData())
-        
+        result = self.generateClustersClass.addEventsToClusters(
+            mockProcessedEvents(), mockTransformedRankedData())
+
         self.assertEqual(len(result), 4)
 
     def test_addEventsToClusters_returnsClusterWithCorrectNfts(self):
         mockClusterValues = list(mockTransformedRankedData()['0'].keys())
 
-        result = self.generateClustersClass.addEventsToClusters(mockProcessedEvents(), mockTransformedRankedData())
-        
+        result = self.generateClustersClass.addEventsToClusters(
+            mockProcessedEvents(), mockTransformedRankedData())
+
         # Nfts from cluster 1 appear first in the list because their events are added first
         for index, nft in enumerate(result[0]['nfts']):
             self.assertEqual(nft, mockClusterValues[index])
@@ -84,11 +88,12 @@ class TestGenerateClustersClass(unittest.TestCase):
             }
         ]
 
-        result = self.generateClustersClass.addEventsToClusters(mockProcessedEvents(), mockTransformedRankedData())
+        result = self.generateClustersClass.addEventsToClusters(
+            mockProcessedEvents(), mockTransformedRankedData())
 
         for index, transaction in enumerate(result[0]['events']):
             self.assertEqual(transaction, mockEventsResult0[index])
-    
+
     def test_addEventsToClusters_returnsCorrectEventsForSecondValue(self):
         mockEventsResult1 = [
             {
@@ -123,23 +128,27 @@ class TestGenerateClustersClass(unittest.TestCase):
             }
         ]
 
-        result = self.generateClustersClass.addEventsToClusters(mockProcessedEvents(), mockTransformedRankedData())
+        result = self.generateClustersClass.addEventsToClusters(
+            mockProcessedEvents(), mockTransformedRankedData())
 
         for index, transaction in enumerate(result[1]['events']):
             self.assertEqual(transaction, mockEventsResult1[index])
 
     def test_returnsEmptyEventsForClusters_whenTheyHaveNoEvents(self):
-        result = self.generateClustersClass.addEventsToClusters(mockProcessedEvents(), mockTransformedRankedData())
+        result = self.generateClustersClass.addEventsToClusters(
+            mockProcessedEvents(), mockTransformedRankedData())
 
         self.assertEqual(len(result[3]['events']), 0)
 
     def test_returnsSuccessResult_whenAllMocksReturnSuccessfully(self):
-        result = self.generateClustersClass.generateClusters(self.contractAddress)
+        result = self.generateClustersClass.generateClusters(
+            self.contractAddress)
 
         self.assertEqual(result, ('Success', 200))
-    
+
     def test_generatesClusterDataSuccessfullyForCluster1_whenAllMocksReturnSuccessfully(self):
-        result = self.generateClustersClass.generateClusters(self.contractAddress)
+        result = self.generateClustersClass.generateClusters(
+            self.contractAddress)
 
         generatedClusters = self.generateClustersClass.clusters.addClusters.call_args[0][1]
 
@@ -188,17 +197,18 @@ class TestGenerateClustersClass(unittest.TestCase):
 
         for index, tokenId in enumerate(generatedClusters['clusters'][0]['nfts'].keys()):
             self.assertEqual(tokenId, expectedNfts[index])
-        
+
         for index, event in enumerate(generatedClusters['clusters'][0]['events']):
             self.assertEqual(event, expectedEvents[index])
- 
+
     def test_generatesClusterDataSuccessfully_whenEventsDataIsEmpty(self):
         eventsClassMock = MagicMock()
         eventsClassMock.getEvents.return_value = {}
 
         self.generateClustersClass.eventsClass = eventsClassMock
 
-        result = self.generateClustersClass.generateClusters(self.contractAddress)
+        result = self.generateClustersClass.generateClusters(
+            self.contractAddress)
 
         generatedClusters = self.generateClustersClass.clusters.addClusters.call_args[0][1]
 
@@ -210,13 +220,15 @@ class TestGenerateClustersClass(unittest.TestCase):
     def test_returnsFailure_whenAddClustersFailsToAddClusters(self):
         self.generateClustersClass.clusters.addClusters.side_effect = Exception()
 
-        result = self.generateClustersClass.generateClusters(self.contractAddress)
+        result = self.generateClustersClass.generateClusters(
+            self.contractAddress)
 
         self.assertEqual(result, ('Failure', 500))
-    
-    def test_returnsFailure_whenSortedRankingsRaisesRuntimeError(self):
-        self.generateClustersClass.sortedRankings.getSortedRankings.side_effect = RuntimeError()
 
-        result = self.generateClustersClass.generateClusters(self.contractAddress)
+    def test_returnsFailure_whenSortedRankingsRaisesRuntimeError(self):
+        self.generateClustersClass.collectionNFTs.getCollectionNFTs.side_effect = RuntimeError()
+
+        result = self.generateClustersClass.generateClusters(
+            self.contractAddress)
 
         self.assertEqual(result, ('Failure', 500))

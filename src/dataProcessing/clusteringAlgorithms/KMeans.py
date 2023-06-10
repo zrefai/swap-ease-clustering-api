@@ -11,9 +11,10 @@ kmeans_kwargs = {
     'max_iter': 500
 }
 
-def getKMeanLabels(dataFrame):
+
+def getKMeanLabels(dataFrame) -> list[int]:
     bestScore = -1
-    labels = []
+    labels: list[int] = []
 
     scaledDataFrame = StandardScaler().fit_transform(dataFrame)
 

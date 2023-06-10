@@ -1,11 +1,12 @@
 import requests
 from helpers.dateHelpers import getDateObject
 
-class EventsService:    
+
+class EventsService:
     def getEvents(self, url, headers):
         # TODO: Do more error handling here
         response = requests.get(url, headers=headers)
-        
+
         if response.ok:
             return self.__eventsMapper(response.json())
 
@@ -13,7 +14,7 @@ class EventsService:
             'next': None,
             'assetEvents': []
         }
-    
+
     def __eventsMapper(self, response):
         assetEvents = []
 
@@ -26,6 +27,7 @@ class EventsService:
                     'paymentToken': event['payment_token']['symbol'],
                     'bundled': False
                 })
+
             # TODO: handle bundled events
             # elif event['asset_bundle'] is not None:
             #     for bundledAsset in event['asset_bundle']['assets']:
