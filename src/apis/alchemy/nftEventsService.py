@@ -1,5 +1,5 @@
 import json
-from pprint import pprint
+# from pprint import pprint
 import requests
 from apis.alchemy.nftEventsDataClasses import Fee, GetEvents, NFTEvent
 from helpers.getEnvVariables import getEnvVariables
@@ -27,22 +27,19 @@ class NFTEventsService:
         response = requests.get(url=url,
                                 headers=headers, params=parameters)
 
-        # print(json.loads(response._content.decode('utf-8')))
-
         if response.ok:
             return self.__getEventsMapper(json.loads(response._content.decode('utf-8')))
         else:
-            pprint(vars(response))
+            # pprint(vars(response))
             raise Exception('Could not get events')
 
     def __getEventsMapper(self, response) -> GetEvents:
         return GetEvents(
             response['pageKey'],
-            self.__eventsMapper(
-                response['nftSales'], response['validAt']['blockTimestamp'])
+            self.__eventsMapper(response['nftSales'])
         )
 
-    def __eventsMapper(self, nftSales, blockTimestamp) -> list[NFTEvent]:
+    def __eventsMapper(self, nftSales) -> list[NFTEvent]:
         nftEvents: list[NFTEvent] = []
 
         # TODO: deal with sales that have a quantity of more than 1
@@ -61,7 +58,6 @@ class NFTEventsService:
                     protocolFee,
                     royaltyFee,
                     event['blockNumber'],
-                    blockTimestamp
                 ))
 
         return nftEvents
